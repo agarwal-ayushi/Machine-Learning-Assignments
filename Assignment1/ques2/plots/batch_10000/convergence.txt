@@ -1,0 +1,2893 @@
+[32.65844804]
+Current average cost = 19.487283544671495
+Current average cost = 15.307483018120857
+Current average cost = 13.436192083840174
+Current average cost = 11.998250870037614
+Current average cost = 10.641996380029768
+Current average cost = 9.721534054382646
+Current average cost = 8.86746663244315
+Current average cost = 8.177068384838762
+Current average cost = 7.544066280875666
+Cost is = 6.811247540915956 in iterations = 1
+Current average cost = 13.622437364865883
+Current average cost = 6.180028095223369
+Current average cost = 5.795982715742576
+Current average cost = 5.479781011122279
+Current average cost = 5.136283718743922
+Current average cost = 4.909522674115944
+Current average cost = 4.6432081326067305
+Current average cost = 4.446479889288214
+Current average cost = 4.230746064333668
+Cost is = 3.981365650638636 in iterations = 2
+Current average cost = 7.963913175155071
+Current average cost = 3.7563854288410163
+Current average cost = 3.602103832770363
+Current average cost = 3.46446884252502
+Current average cost = 3.3261928508197998
+Current average cost = 3.2296280691731587
+Current average cost = 3.106347872864132
+Current average cost = 3.0307215451380314
+Current average cost = 2.9289129027953784
+Cost is = 2.821444103365295 in iterations = 3
+Current average cost = 5.640672520501804
+Current average cost = 2.7285035758128573
+Current average cost = 2.656028386182433
+Current average cost = 2.5799779841988353
+Current average cost = 2.5230769016388446
+Current average cost = 2.473797767283358
+Current average cost = 2.411515877664902
+Current average cost = 2.3834841675611815
+Current average cost = 2.330014154645495
+Cost is = 2.2819600374799123 in iterations = 4
+Current average cost = 4.5584039354960755
+Current average cost = 2.2452870149562782
+Current average cost = 2.2098006089807516
+Current average cost = 2.1591871976352337
+Current average cost = 2.1399275408603264
+Current average cost = 2.110259298044612
+Current average cost = 2.0765514502094513
+Current average cost = 2.0686128337778777
+Current average cost = 2.0374412834099873
+Cost is = 2.01556276179841 in iterations = 5
+Current average cost = 4.023066607630991
+Current average cost = 2.0036670127216625
+Current average cost = 1.9858661589742943
+Current average cost = 1.945821799788802
+Current average cost = 1.9446482269451562
+Current average cost = 1.9231244656055353
+Current average cost = 1.903076096330589
+Current average cost = 1.9035561094759745
+Current average cost = 1.8829485353091928
+Cost is = 1.872671964210009 in iterations = 6
+Current average cost = 3.7354619025933657
+Current average cost = 1.8716492746728917
+Current average cost = 1.8626414228668335
+Current average cost = 1.8269172610574447
+Current average cost = 1.8346636207284532
+Current average cost = 1.816461394464343
+Current average cost = 1.8030600331423916
+Current average cost = 1.8069872711351394
+Current average cost = 1.7915180183501238
+Cost is = 1.7864242062214244 in iterations = 7
+Current average cost = 3.561705542913091
+Current average cost = 1.7901156586955271
+Current average cost = 1.785702470935814
+Current average cost = 1.751750930518559
+Current average cost = 1.7640182904336583
+Current average cost = 1.7471589033908768
+Current average cost = 1.7370608675571126
+Current average cost = 1.7423646128118304
+Current average cost = 1.7294846041111271
+Cost is = 1.7267654829855834 in iterations = 8
+Current average cost = 3.4415369081398914
+Current average cost = 1.7324568949580563
+Current average cost = 1.7306071001597236
+Current average cost = 1.6974514557339013
+Current average cost = 1.7120752216663426
+Current average cost = 1.69578663241736
+Current average cost = 1.6873671172681444
+Current average cost = 1.6932193053260023
+Current average cost = 1.681707355311671
+Cost is = 1.6801472876207024 in iterations = 9
+Current average cost = 3.347737656510062
+Current average cost = 1.6866527158103515
+Current average cost = 1.6863519078944336
+Current average cost = 1.6536607681087578
+Current average cost = 1.669543847648192
+Current average cost = 1.653552460824842
+Current average cost = 1.6460024643584545
+Current average cost = 1.6520954421955198
+Current average cost = 1.6413512982329153
+Cost is = 1.640430684089243 in iterations = 10
+Current average cost = 3.267940623250264
+Current average cost = 1.6472384205510509
+Current average cost = 1.6479589170371107
+Current average cost = 1.6156506362954606
+Current average cost = 1.6322181453320597
+Current average cost = 1.6164464382930308
+Current average cost = 1.6093513331993674
+Current average cost = 1.6155869295205583
+Current average cost = 1.605305722212836
+Cost is = 1.6048050604012052 in iterations = 11
+Current average cost = 3.196461415701731
+Current average cost = 1.611698296824608
+Current average cost = 1.613151523265128
+Current average cost = 1.5812299623672579
+Current average cost = 1.5981700125628042
+Current average cost = 1.5826105705898803
+Current average cost = 1.5757509445045357
+Current average cost = 1.5821093749122308
+Current average cost = 1.5721299935407897
+Cost is = 1.5719564539201891 in iterations = 12
+Current average cost = 3.130628422955885
+Current average cost = 1.578845655421592
+Current average cost = 1.5808644425548646
+Current average cost = 1.5493541965553512
+Current average cost = 1.5664919246319626
+Current average cost = 1.551157196326913
+Current average cost = 1.5444130541865295
+Current average cost = 1.550899575240302
+Current average cost = 1.5411329356139472
+Cost is = 1.541245376132212 in iterations = 13
+Current average cost = 3.0691328633994086
+Current average cost = 1.548094798855354
+Current average cost = 1.5505761120669193
+Current average cost = 1.5194994382130869
+Current average cost = 1.5367340627615422
+Current average cost = 1.5216379054067009
+Current average cost = 1.5149415306337102
+Current average cost = 1.5215660817503955
+Current average cost = 1.511960470047845
+Cost is = 1.512337682334317 in iterations = 14
+Current average cost = 3.0112862765983874
+Current average cost = 1.5191335621417763
+Current average cost = 1.522009791558669
+Current average cost = 1.4913802741792348
+Current average cost = 1.5086525857509876
+Current average cost = 1.493804657288844
+Current average cost = 1.4871167698184333
+Current average cost = 1.4938871790853367
+Current average cost = 1.4844110496727452
+Cost is = 1.4850387674411631 in iterations = 15
+Current average cost = 2.956685861363298
+Current average cost = 1.4917758221278496
+Current average cost = 1.49499986222616
+Current average cost = 1.464822260094032
+Current average cost = 1.4820971974373238
+Current average cost = 1.4675021871605576
+Current average cost = 1.4607995008452357
+Current average cost = 1.4677199668895244
+Current average cost = 1.4583531178864484
+Cost is = 1.4592190194878984 in iterations = 16
+Current average cost = 2.905063252733917
+Current average cost = 1.465894909764632
+Current average cost = 1.4694320836934622
+Current average cost = 1.4397040595271373
+Current average cost = 1.4569610063693368
+Current average cost = 1.4426194310042095
+Current average cost = 1.4358879388651409
+Current average cost = 1.4429593493162112
+Current average cost = 1.433688222374927
+Cost is = 1.4347802361650734 in iterations = 17
+Current average cost = 2.856215896072461
+Current average cost = 1.4413934239851365
+Current average cost = 1.4452169227514606
+Current average cost = 1.415931018243288
+Current average cost = 1.4331581971433769
+Current average cost = 1.4190675026219934
+Current average cost = 1.4122987295934233
+Current average cost = 1.4195194557698243
+Current average cost = 1.4103345306364536
+Cost is = 1.4116404324416236 in iterations = 18
+Current average cost = 2.8099756743098108
+Current average cost = 1.418189447049011
+Current average cost = 1.4222776453059018
+Current average cost = 1.3934229642825369
+Current average cost = 1.4106140898870385
+Current average cost = 1.3967696304475565
+Current average cost = 1.3899584753567464
+Current average cost = 1.3973251526853327
+Current average cost = 1.3882194451401042
+Cost is = 1.389726908794538 in iterations = 19
+Current average cost = 2.766194380189296
+Current average cost = 1.3962101661846889
+Current average cost = 1.4005449822941523
+Current average cost = 1.3721084732420958
+Current average cost = 1.389260699479353
+Current average cost = 1.3756564915609932
+Current average cost = 1.3687999493411858
+Current average cost = 1.3763081020442747
+Current average cost = 1.367276266338282
+Cost is = 1.3689730331280134 in iterations = 20
+Current average cost = 2.7247368356286987
+Current average cost = 1.3753888514472767
+Current average cost = 1.3799547127501874
+Current average cost = 1.351922090829551
+Current average cost = 1.3690347250804678
+Current average cost = 1.355663988769296
+Current average cost = 1.348760376033566
+Current average cost = 1.35640487416184
+Current average cost = 1.3474426499459768
+Cost is = 1.3493166953338365 in iterations = 21
+Current average cost = 2.685477504269963
+Current average cost = 1.3556633631997947
+Current average cost = 1.360446535227552
+Current average cost = 1.3328029215063406
+Current average cost = 1.3498766069059212
+Current average cost = 1.3367321391646092
+Current average cost = 1.3297806159419978
+Current average cost = 1.3375559932076926
+Current average cost = 1.3286598560951017
+Cost is = 1.3306995180922918 in iterations = 22
+Current average cost = 2.6482987155363173
+Current average cost = 1.3369753633388064
+Current average cost = 1.3419635048554572
+Current average cost = 1.3146938577494596
+Current average cost = 1.3317300479943142
+Current average cost = 1.3188044727602697
+Current average cost = 1.31180474271972
+Current average cost = 1.3197054100625154
+Current average cost = 1.3108723464282843
+Cost is = 1.3130664122832023 in iterations = 23
+Current average cost = 2.6130896439828986
+Current average cost = 1.3192698554133597
+Current average cost = 1.3244517171761019
+Current average cost = 1.2975411166622064
+Current average cost = 1.314541736873937
+Current average cost = 1.301827668793336
+Current average cost = 1.2947797891360604
+Current average cost = 1.3028001742276616
+Current average cost = 1.2940275337817957
+Cost is = 1.2963652919480817 in iterations = 24
+Current average cost = 2.5797456517390343
+Current average cost = 1.3024948825005649
+Current average cost = 1.307860099305278
+Current average cost = 1.2812939291496137
+Current average cost = 1.2982611566250244
+Current average cost = 1.2857513057569796
+Current average cost = 1.2786555655121559
+Current average cost = 1.286790201278801
+Current average cost = 1.278075599308168
+Cost is = 1.2805468654577041 in iterations = 25
+Current average cost = 2.5481678126082725
+Current average cost = 1.2866013040045454
+Current average cost = 1.2921402482158406
+Current average cost = 1.2659043086318238
+Current average cost = 1.282840431537697
+Current average cost = 1.2705276683929294
+Current average cost = 1.263384509867946
+Current average cost = 1.2716280886290434
+Current average cost = 1.2629693404399294
+Cost is = 1.265564465212647 in iterations = 26
+Current average cost = 2.5182625326645374
+Current average cost = 1.2715426145657465
+Current average cost = 1.2772462906711366
+Current average cost = 1.2513268640719117
+Current average cost = 1.2682341911091057
+Current average cost = 1.256111585361644
+Current average cost = 1.2489215530530011
+Current average cost = 1.2572689578126304
+Current average cost = 1.248664034282861
+Cost is = 1.251373898723539 in iterations = 27
+Current average cost = 2.489941226511613
+Current average cost = 1.2572747875302797
+Current average cost = 1.2631347543553684
+Current average cost = 1.2375186398073184
+Current average cost = 1.2543994433123307
+Current average cost = 1.242460285213099
+Current average cost = 1.235223992306676
+Current average cost = 1.2436703130511342
+Current average cost = 1.2351173101365223
+Cost is = 1.237933313144716 in iterations = 28
+Current average cost = 2.463120029018987
+Current average cost = 1.2437561343494186
+Current average cost = 1.2497644461100468
+Current average cost = 1.2244389731263314
+Current average cost = 1.2412954541321586
+Current average cost = 1.22953326466683
+Current average cost = 1.2222513708640281
+Current average cost = 1.2307919111393821
+Current average cost = 1.2222890286644044
+Cost is = 1.225203069491687 in iterations = 29
+Current average cost = 2.437719532118037
+Current average cost = 1.2309471754714174
+Current average cost = 1.2370963357886091
+Current average cost = 1.2120493646640198
+Current average cost = 1.2288836323681527
+Current average cost = 1.2172921661714873
+Current average cost = 1.2099653628415357
+Current average cost = 1.2185956401202307
+Current average cost = 1.2101411667793456
+Cost is = 1.2131456246521297 in iterations = 30
+Current average cost = 2.4136645409690756
+Current average cost = 1.2188105202991224
+Current average cost = 1.2250934452420243
+Current average cost = 1.2003133587771029
+Current average cost = 1.217127419431741
+Current average cost = 1.2057006631073444
+Current average cost = 1.1983296631997562
+Current average cost = 1.2070454053549653
+Current average cost = 1.1986377078896353
+Cost is = 1.2017254201558327 in iterations = 31
+Current average cost = 2.3908838461635833
+Current average cost = 1.2073107547797775
+Current average cost = 1.2137207422872482
+Current average cost = 1.1891964321499024
+Current average cost = 1.2059921840779464
+Current average cost = 1.194724351664192
+Current average cost = 1.1873098827294322
+Current average cost = 1.1961070221404793
+Current average cost = 1.1877445373388409
+Cost is = 1.190908777064121 in iterations = 32
+Current average cost = 2.3693100098423794
+Current average cost = 1.1964143357025387
+Current average cost = 1.202945039590957
+Current average cost = 1.1786658894815703
+Current average cost = 1.1954451220368945
+Current average cost = 1.1843306487579701
+Current average cost = 1.1768734480099887
+Current average cost = 1.185748114294107
+Current average cost = 1.1774293429106817
+Cost is = 1.1806637965267524 in iterations = 33
+Current average cost = 2.3488791642680122
+Current average cost = 1.1860894910529793
+Current average cost = 1.1927348983914237
+Current average cost = 1.168690765447787
+Current average cost = 1.1854551604764754
+Current average cost = 1.174488695520277
+Current average cost = 1.166989506250958
+Current average cost = 1.1759380182675752
+Current average cost = 1.1676615202593337
+Cost is = 1.170960265647762 in iterations = 34
+Current average cost = 2.3295308217640134
+Current average cost = 1.1763061259296415
+Current average cost = 1.1830605369486928
+Current average cost = 1.1592417323364423
+Current average cost = 1.1759928671852733
+Current average cost = 1.165169265988335
+Current average cost = 1.1576288348864305
+Current average cost = 1.1666476924301927
+Current average cost = 1.1584120831042437
+Cost is = 1.1617695683522302 in iterations = 35
+Current average cost = 2.311207695159132
+Current average cost = 1.167035733622092
+Current average cost = 1.1738937435817036
+Current average cost = 1.1502910128867456
+Current average cost = 1.1670303643302602
+Current average cost = 1.1563446806781168
+Current average cost = 1.1487637557617556
+Current average cost = 1.1578496312093782
+Current average cost = 1.149653578010286
+Cost is = 1.153064600976797 in iterations = 36
+Current average cost = 2.2938555280186144
+Current average cost = 1.1582513115109576
+Current average cost = 1.1652077941276628
+Current average cost = 1.1418122979466725
+Current average cost = 1.158541246620104
+Current average cost = 1.1479887247588572
+Current average cost = 1.1403680537318839
+Current average cost = 1.1495177838088826
+Current average cost = 1.1413600035622782
+Cost is = 1.1448196923280274 in iterations = 37
+Current average cost = 2.27742293404203
+Current average cost = 1.1499272814924706
+Current average cost = 1.1569773736444176
+Current average cost = 1.1337806686223475
+Current average cost = 1.1505005036911045
+Current average cost = 1.140076570572268
+Current average cost = 1.1324168994801
+Current average cost = 1.1416274772487118
+Current average cost = 1.1335067337372153
+Cost is = 1.1370105279694243 in iterations = 38
+Current average cost = 2.2618612450767195
+Current average cost = 1.1420394146607524
+Current average cost = 1.149178502169197
+Current average cost = 1.1261725226347528
+Current average cost = 1.1428844465263919
+Current average cost = 1.1325847042590138
+Current average cost = 1.1248867763620873
+Current average cost = 1.1341553434895446
+Current average cost = 1.1260704452767354
+Cost is = 1.1296140785120148 in iterations = 39
+Current average cost = 2.247124367248359
+Current average cost = 1.1345647600047015
+Current average cost = 1.1417884643451273
+Current average cost = 1.1189655046302094
+Current average cost = 1.1356706377180008
+Current average cost = 1.1254908562707795
+Current average cost = 1.117755411081139
+Current average cost = 1.1270792504201228
+Current average cost = 1.1190290488649444
+Cost is = 1.1226085316960752 in iterations = 40
+Current average cost = 2.233168644751379
+Current average cost = 1.1274815768953617
+Current average cost = 1.1347857427286598
+Current average cost = 1.1121384402149785
+Current average cost = 1.1288378253839966
+Current average cost = 1.1187739355598587
+Current average cost = 1.1110017080042829
+Current average cost = 1.1203782364997912
+Current average cost = 1.1123616239216711
+Cost is = 1.1159732280631558 in iterations = 41
+Current average cost = 2.2199527308758094
+Current average cost = 1.1207692711555064
+Current average cost = 1.1281499545953038
+Current average cost = 1.1056712735033838
+Current average cost = 1.1223658805576717
+Current average cost = 1.112413967250277
+Current average cost = 1.104605686934955
+Current average cost = 1.1140324488605988
+Current average cost = 1.1060483568275912
+Cost is = 1.1096886000283774 in iterations = 42
+Current average cost = 2.2074374658758353
+Current average cost = 1.1144083345168623
+Current average cost = 1.1218617920668543
+Current average cost = 1.099545007984579
+Current average cost = 1.1162357378721262
+Current average cost = 1.1063920336054713
+Current average cost = 1.0985484241648122
+Current average cost = 1.1080230846845232
+Current average cost = 1.1000704824048846
+Cost is = 1.103736114173132 in iterations = 43
+Current average cost = 2.1955857613103245
+Current average cost = 1.1083802872824218
+Current average cost = 1.1159029653900452
+Current average cost = 1.0937416505264612
+Current average cost = 1.110429339370599
+Current average cost = 1.1006902181177134
+Current average cost = 1.0928119966348535
+Current average cost = 1.1023323356816643
+Current average cost = 1.0944102284847592
+Cost is = 1.0980982165878754 in iterations = 44
+Current average cost = 2.1843624905078807
+Current average cost = 1.1026676240221231
+Current average cost = 1.1102561492037728
+Current average cost = 1.0882441583468274
+Current average cost = 1.1049295812803683
+Current average cost = 1.0952915525539324
+Current average cost = 1.0873794290437715
+Current average cost = 1.0969433355048008
+Current average cost = 1.0890507634009512
+Cost is = 1.0927582811037424 in iterations = 45
+Current average cost = 2.173734384829162
+Current average cost = 1.0972537621400433
+Current average cost = 1.104904931639455
+Current average cost = 1.0830363887922316
+Current average cost = 1.099720263595605
+Current average cost = 1.090179966801473
+Current average cost = 1.082234643749261
+Current average cost = 1.0918401099446435
+Current average cost = 1.0839761462560662
+Cost is = 1.0877005602602805 in iterations = 46
+Current average cost = 2.163669935417653
+Current average cost = 1.09212299316031
+Current average cost = 1.0998337661064983
+Current average cost = 1.0781030517743404
+Current average cost = 1.0947860423220603
+Current average cost = 1.0853402413656674
+Current average cost = 1.0773624133156299
+Current average cost = 1.0870075297584996
+Current average cost = 1.0791712798152142
+Cost is = 1.0829101388646363 in iterations = 47
+Current average cost = 2.154139300147244
+Current average cost = 1.087260436587388
+Current average cost = 1.0950279256221154
+Current average cost = 1.073429664722108
+Current average cost = 1.0901123842437976
+Current average cost = 1.0807579623789854
+Current average cost = 1.072748315568483
+Current average cost = 1.0824312659929358
+Current average cost = 1.0746218658887532
+Cost is = 1.0783728900052507 in iterations = 48
+Current average cost = 2.1451142154908673
+Current average cost = 1.08265199620423
+Current average cost = 1.0904734595518233
+Current average cost = 1.0690025099160114
+Current average cost = 1.0856855240792618
+Current average cost = 1.076419478988957
+Current average cost = 1.068378691024383
+Current average cost = 1.078097747668489
+Current average cost = 1.070314363073015
+Cost is = 1.0740754333902909 in iterations = 49
+Current average cost = 2.1365679130494017
+Current average cost = 1.078284318679184
+Current average cost = 1.0861571526337508
+Current average cost = 1.064808594077903
+Current average cost = 1.0814924239008123
+Current average cost = 1.0723118629991144
+Current average cost = 1.0642406025702325
+Current average cost = 1.073994121701471
+Current average cost = 1.066235946724685
+Cost is = 1.0700050958879748 in iterations = 50
+Current average cost = 2.1284750404940427
+Current average cost = 1.0741447543594524
+Current average cost = 1.0820664861664486
+Current average cost = 1.0608356100969254
+Current average cost = 1.0775207346983513
+Current average cost = 1.0684228706438348
+Current average cost = 1.0603217972736476
+Current average cost = 1.0701082149445686
+Current average cost = 1.0623744710509662
+Cost is = 1.0661498741523878 in iterations = 51
+Current average cost = 2.120811586688556
+Current average cost = 1.0702213201354431
+Current average cost = 1.0781896012461085
+Current average cost = 1.0570719007783478
+Current average cost = 1.0737587599739036
+Current average cost = 1.0647409063842836
+Current average cost = 1.056610670211804
+Current average cost = 1.0664284982341907
+Current average cost = 1.0587184332038224
+Cost is = 1.0624983992245847 in iterations = 52
+Current average cost = 2.1135548107702675
+Current average cost = 1.0665026642665052
+Current average cost = 1.0745152639450803
+Current average cost = 1.0535064245082657
+Current average cost = 1.0701954212599332
+Current average cost = 1.0612549886186144
+Current average cost = 1.0530962302121407
+Current average cost = 1.062944052338477
+Current average cost = 1.0552569392724531
+Cost is = 1.0590399030045596 in iterations = 53
+Current average cost = 2.106683174980411
+Current average cost = 1.0629780330643592
+Current average cost = 1.0710328323292235
+Current average cost = 1.0501287227328038
+Current average cost = 1.0668202254598005
+Current average cost = 1.0579547172052317
+Current average cost = 1.049768067403929
+Current average cost = 1.0596445357054725
+Current average cost = 1.0519796720737216
+Cost is = 1.0557641864952267 in iterations = 54
+Current average cost = 2.1001762810455458
+Current average cost = 1.0596372393360416
+Current average cost = 1.067732225217013
+Current average cost = 1.0469288891558608
+Current average cost = 1.0636232339141138
+Current average cost = 1.0548302427032752
+Current average cost = 1.046616322485011
+Current average cost = 1.0565201539163094
+Current average cost = 1.048876860645527
+Cost is = 1.052661589724733 in iterations = 55
+Current average cost = 2.0940148099223017
+Current average cost = 1.0564706324933704
+Current average cost = 1.0646038925884227
+Current average cost = 1.0438975405645323
+Current average cost = 1.060595033101795
+Current average cost = 1.051872237239543
+Current average cost = 1.0436316576130857
+Current average cost = 1.053561630753265
+Current average cost = 1.0459392513531334
+Cost is = 1.0497229632584186 in iterations = 56
+Current average cost = 2.088180464727612
+Current average cost = 1.0534690702408773
+Current average cost = 1.0616387875564657
+Current average cost = 1.0410257891961565
+Current average cost = 1.0577267068894867
+Current average cost = 1.049071866915881
+Current average cost = 1.0408052288356782
+Current average cost = 1.0507601807973261
+Current average cost = 1.0431580805232077
+Cost is = 1.0469396412164071 in iterations = 57
+Current average cost = 2.0826559166860426
+Current average cost = 1.0506238917588036
+Current average cost = 1.0588283398188558
+Current average cost = 1.0383052165655071
+Current average cost = 1.0550098102474919
+Current average cost = 1.0464207656755993
+Current average cost = 1.0381286599774822
+Current average cost = 1.0481074834744137
+Current average cost = 1.0405250485248132
+Cost is = 1.0443034157172415 in iterations = 58
+Current average cost = 2.0774247539347166
+Current average cost = 1.047926892302168
+Current average cost = 1.056164430511599
+Current average cost = 1.0357278486749393
+Current average cost = 1.052436344354742
+Current average cost = 1.043911010551788
+Current average cost = 1.0355940179080407
+Current average cost = 1.045595658473685
+Current average cost = 1.0380322952208831
+Cost is = 1.0418065126722056 in iterations = 59
+Current average cost = 2.0724714330347607
+Current average cost = 1.045370299141094
+Current average cost = 1.0536393683904763
+Current average cost = 1.03328613253441
+Current average cost = 1.0499987330194016
+Current average cost = 1.04153509822447
+Current average cost = 1.0331937891168175
+Current average cost = 1.0432172424653934
+Current average cost = 1.0356723767177292
+Cost is = 1.0394415688589425 in iterations = 60
+Current average cost = 2.0677812330462215
+Current average cost = 1.0429467487715347
+Current average cost = 1.0512458672702627
+Current average cost = 1.0309729139221449
+Current average cost = 1.047689800345571
+Current average cost = 1.039285922817419
+Current average cost = 1.0309208575265523
+Current average cost = 1.0409651670496045
+Current average cost = 1.0334382433439668
+Cost is = 1.037201610206761 in iterations = 61
+Current average cost = 2.063340212030937
+Current average cost = 1.0406492653292927
+Current average cost = 1.0489770246552506
+Current average cost = 1.0287814163203781
+Current average cost = 1.0455027495802454
+Current average cost = 1.0371567548690805
+Current average cost = 1.0287684834794513
+Current average cost = 1.0388327378707078
+Current average cost = 1.0313232187938677
+Cost is = 1.0350800312295843 in iterations = 62
+Current average cost = 2.0591351658550012
+Current average cost = 1.0384712401437544
+Current average cost = 1.0468263014981374
+Current average cost = 1.0267052209640777
+Current average cost = 1.0434311430781515
+Current average cost = 1.0351412214155513
+Current average cost = 1.0267302838342254
+Current average cost = 1.0368136148361027
+Current average cost = 1.0293209803735903
+Cost is = 1.0330705755458942 in iterations = 63
+Current average cost = 2.0551535891692962
+Current average cost = 1.0364064123711418
+Current average cost = 1.0447875030276834
+Current average cost = 1.024738247943827
+Current average cost = 1.0414688833253813
+Current average cost = 1.0332332871268055
+Current average cost = 1.0248002131152505
+Current average cost = 1.0349017933806857
+Current average cost = 1.0274255402919739
+Cost is = 1.0311673174282134 in iterations = 64
+Current average cost = 2.0513836384529287
+Current average cost = 1.034448850650258
+Current average cost = 1.042854760588668
+Current average cost = 1.0228747383071686
+Current average cost = 1.0396101949658738
+Current average cost = 1.031427236440503
+Current average cost = 1.0229725456582526
+Current average cost = 1.0330915867218684
+Current average cost = 1.0256312279406838
+Cost is = 1.0293646443277236 in iterations = 65
+Current average cost = 2.04781409701054
+Current average cost = 1.0325929357267027
+Current average cost = 1.041022514440685
+Current average cost = 1.021109237105636
+Current average cost = 1.0378496077777422
+Current average cost = 1.0297176566406263
+Current average cost = 1.021241858699831
+Current average cost = 1.031377609052752
+Current average cost = 1.0239326731114087
+Cost is = 1.027657240322472 in iterations = 66
+Current average cost = 2.0444343418202053
+Current average cost = 1.0308333439944162
+Current average cost = 1.0392854974651156
+Current average cost = 1.0194365773375076
+Current average cost = 1.036181940549247
+Current average cost = 1.028099421831007
+Current average cost = 1.0196030163609398
+Current average cost = 1.0297547596238836
+Current average cost = 1.0223247901005563
+Cost is = 1.0260400704403612 in iterations = 67
+Current average cost = 2.0412343121340895
+Current average cost = 1.0291650319060837
+Current average cost = 1.0376387197323114
+Current average cost = 1.0178518647389423
+Current average cost = 1.0346022858068706
+Current average cost = 1.0265676777564212
+Current average cost = 1.0180511544770685
+Current average cost = 1.0282182076666062
+Current average cost = 1.0208027626545482
+Cost is = 1.0245083658106853 in iterations = 68
+Current average cost = 2.038204479739221
+Current average cost = 1.0275832212065132
+Current average cost = 1.0360774538835456
+Current average cost = 1.0163504633786709
+Current average cost = 1.0331059953504653
+Current average cost = 1.0251178274264467
+Current average cost = 1.0165816662303744
+Current average cost = 1.026763378113529
+Current average cost = 1.019362029711256
+Cost is = 1.0230576096004254 in iterations = 69
+Current average cost = 2.0353358207906105
+Current average cost = 1.0260833849455142
+Current average cost = 1.034597221284698
+Current average cost = 1.0149279820137809
+Current average cost = 1.0316886665528142
+Current average cost = 1.0237455174996475
+Current average cost = 1.0151901885413712
+Current average cost = 1.0253859380739734
+Current average cost = 1.0179982718955036
+Cost is = 1.0216835236938215 in iterations = 70
+Current average cost = 2.0326197891336135
+Current average cost = 1.0246612342291057
+Current average cost = 1.0331937789109078
+Current average cost = 1.0135802611663713
+Current average cost = 1.0303461293832137
+Current average cost = 1.0224466253878752
+Current average cost = 1.0138725891800275
+Current average cost = 1.0240817840244891
+Current average cost = 1.0167073987287576
+Cost is = 1.020382056075952 in iterations = 71
+Current average cost = 2.0300482910368083
+Current average cost = 1.0233127056700568
+Current average cost = 1.0318631069235797
+Current average cost = 1.0123033608829917
+Current average cost = 1.02907443411681
+Current average cost = 1.021217247042624
+Current average cost = 1.0126249545582469
+Current average cost = 1.0228470296766374
+Current average cost = 1.0154855365152546
+Cost is = 1.0191493688830997 in iterations = 72
+Current average cost = 2.0276136612608138
+Current average cost = 1.0220339495008202
+Current average cost = 1.0306013969031826
+Current average cost = 1.0110935491407789
+Current average cost = 1.027869839693447
+Current average cost = 1.0200536853873738
+Current average cost = 1.0114435781677154
+Current average cost = 1.021677994486242
+Current average cost = 1.014329016868801
+Cost is = 1.0179818270846626 in iterations = 73
+Current average cost = 2.025308640392452
+Current average cost = 1.020821318313875
+Current average cost = 1.0294050407031938
+Current average cost = 1.0099472908661262
+Current average cost = 1.0267288026917085
+Current average cost = 1.0189524393617722
+Current average cost = 1.0103249496290012
+Current average cost = 1.0205711927701981
+Current average cost = 1.0132343658463747
+Cost is = 1.0168759877632556 in iterations = 74
+Current average cost = 2.023126353377338
+Current average cost = 1.0196713563963438
+Current average cost = 1.0282706198923832
+Current average cost = 1.0088612375335106
+Current average cost = 1.0256479668856286
+Current average cost = 1.0179101935452974
+Current average cost = 1.0092657443195951
+Current average cost = 1.0195233233987249
+Current average cost = 1.0121982936564415
+Cost is = 1.0158285899613495 in iterations = 75
+Current average cost = 2.021060289187564
+Current average cost = 1.0185807896274979
+Current average cost = 1.027194895754367
+Current average cost = 1.0078322173138259
+Current average cost = 1.0246241533532907
+Current average cost = 1.0169238083297751
+Current average cost = 1.0082628135502936
+Current average cost = 1.0185312600326322
+Current average cost = 1.01121768491161
+Cost is = 1.0148365450645407 in iterations = 76
+Current average cost = 2.0191042815644673
+Current average cost = 1.0175465159094115
+Current average cost = 1.0261747998149926
+Current average cost = 1.006857225743186
+Current average cost = 1.0236543511081406
+Current average cost = 1.0159903106117185
+Current average cost = 1.0073131752609321
+Current average cost = 1.0175920418768034
+Current average cost = 1.0102895893968342
+Cost is = 1.0138969276930692 in iterations = 77
+Current average cost = 2.0172524907796476
+Current average cost = 1.0165655961026292
+Current average cost = 1.0252074248696779
+Current average cost = 1.005933416884692
+Current average cost = 1.0227357082253925
+Current average cost = 1.015106884977016
+Current average cost = 1.006414005208026
+Current average cost = 1.016702864922599
+Current average cost = 1.009411213325918
+Cost is = 1.0130069670747268 in iterations = 78
+Current average cost = 2.015499386360402
+Current average cost = 1.0156352454401538
+Current average cost = 1.0242900164843036
+Current average cost = 1.0050580949571182
+Current average cost = 1.0218655234373597
+Current average cost = 1.0142708653519268
+Current average cost = 1.0055626286183057
+Current average cost = 1.0158610736533276
+Current average cost = 1.0085799110604914
+Cost is = 1.0121640388737259 in iterations = 79
+Current average cost = 2.013839730728603
+Current average cost = 1.0147528253945113
+Current average cost = 1.023419964944644
+Current average cost = 1.004228706405845
+Current average cost = 1.021041238172933
+Current average cost = 1.0134797270957334
+Current average cost = 1.0047565122835294
+Current average cost = 1.015064153188322
+Current average cost = 1.0077931772670161
+Cost is = 1.01136565745141 in iterations = 80
+Current average cost = 2.0122685637047275
+Current average cost = 1.013915835973955
+Current average cost = 1.0225947976306524
+Current average cost = 1.0034428323926705
+Current average cost = 1.0202604290177293
+Current average cost = 1.012731079511695
+Current average cost = 1.0039932570732377
+Current average cost = 1.0143097218424153
+Current average cost = 1.0070486394886555
+Cost is = 1.0106094685359992 in iterations = 81
+Current average cost = 2.010781187831295
+Current average cost = 1.013121908425155
+Current average cost = 1.021812171793158
+Current average cost = 1.0026981816823617
+Current average cost = 1.019520800572686
+Current average cost = 1.012022658754186
+Current average cost = 1.0032705908433646
+Current average cost = 1.0135955240788683
+Current average cost = 1.0063440511100759
+Cost is = 1.0098932422797455 in iterations = 82
+Current average cost = 2.0093731544724003
+Current average cost = 1.0123687983209
+Current average cost = 1.0210698677117278
+Current average cost = 1.0019925839049917
+Current average cost = 1.0188201786900328
+Current average cost = 1.0113523211110684
+Current average cost = 1.0025863617197772
+Current average cost = 1.0129194238349462
+Current average cost = 1.005677284694398
+Cost is = 1.0092148666830296 in iterations = 83
+Current average cost = 2.0080402506483184
+Current average cost = 1.011654379012489
+Current average cost = 1.0203657822135652
+Current average cost = 1.0013239831742002
+Current average cost = 1.018156504066711
+Current average cost = 1.010718036641459
+Current average cost = 1.0019385317369214
+Current average cost = 1.0122793982004405
+Current average cost = 1.0050463256726299
+Cost is = 1.0085723413659928 in iterations = 84
+Current average cost = 2.00677848656631
+Current average cost = 1.01097663542755
+Current average cost = 1.0196979225343732
+Current average cost = 1.0006904320425707
+Current average cost = 1.0175278261763385
+Current average cost = 1.0101178831500977
+Current average cost = 1.001325170812811
+Current average cost = 1.011673531430481
+Current average cost = 1.0044492663669344
+Cost is = 1.007963771669347 in iterations = 85
+Current average cost = 2.00558408381083
+Current average cost = 1.010333658195045
+Current average cost = 1.0190644005031302
+Current average cost = 1.0000900857763164
+Current average cost = 1.016932297521835
+Current average cost = 1.0095500404805149
+Current average cost = 1.0007444510425676
+Current average cost = 1.011100009274965
+Current average cost = 1.0038843003300848
+Cost is = 1.0073873630669683 in iterations = 86
+Current average cost = 2.0044534641582703
+Current average cost = 1.009723638080191
+Current average cost = 1.0184634270336725
+Current average cost = 0.9995211969323977
+Current average cost = 1.0163681681917611
+Current average cost = 1.0090127851101465
+Current average cost = 1.0001946412936862
+Current average cost = 1.0105571136078613
+Current average cost = 1.0033497169843861
+Cost is = 1.0068414158737837 in iterations = 87
+Current average cost = 2.0033832389832322
+Current average cost = 1.0091448607129292
+Current average cost = 1.0178933069068807
+Current average cost = 0.9989821102220958
+Current average cost = 1.0158337807043185
+Current average cost = 1.008504485031422
+Current average cost = 0.9996741020870636
+Current average cost = 1.010043217340541
+Current average cost = 1.002843896544231
+Cost is = 1.0063243202333536 in iterations = 88
+Current average cost = 2.002370199225045
+Current average cost = 1.0085957015944431
+Current average cost = 1.0173524338281272
+Current average cost = 0.9984712576459032
+Current average cost = 1.0153275651238107
+Current average cost = 1.008023594903709
+Current average cost = 0.9991812807486955
+Current average cost = 1.0095567796041154
+Current average cost = 1.002365305207287
+Cost is = 1.0058345513703677 in iterations = 89
+Current average cost = 2.001411305884906
+Current average cost = 1.0080746213670464
+Current average cost = 1.0168392857454502
+Current average cost = 0.9979871538854008
+Current average cost = 1.014848034435166
+Current average cost = 1.0075686514617888
+Current average cost = 0.9987147068177202
+Current average cost = 1.009096341186558
+Current average cost = 1.0019124906001136
+Cost is = 1.0053706650940453 in iterations = 90
+Current average cost = 2.000503681025612
+Current average cost = 1.0075801613335382
+Current average cost = 1.0163524204146879
+Current average cost = 0.9975283919385378
+Current average cost = 1.014393780162882
+Current average cost = 1.00713826916729
+Current average cost = 0.9982729876972753
+Current average cost = 1.0086605202111458
+Current average cost = 1.001484077464752
+Cost is = 1.0049312935391936 in iterations = 91
+Current average cost = 1.9996445992472818
+Current average cost = 1.0071109392128499
+Current average cost = 1.015890471198531
+Current average cost = 0.997093638985457
+Current average cost = 1.0139634682214793
+Current average cost = 1.0067311360902482
+Current average cost = 0.997854804535311
+Current average cost = 1.0082480080434568
+Current average cost = 1.0010787635735496
+Cost is = 1.0045151411323476 in iterations = 92
+Current average cost = 1.9988314796139293
+Current average cost = 1.0066656451195104
+Current average cost = 1.0154521430871477
+Current average cost = 0.9966816324726852
+Current average cost = 1.0135558349852256
+Current average cost = 1.0063460100086021
+Current average cost = 0.997458908323221
+Current average cost = 1.0078575654148396
+Current average cost = 1.0006953158601433
+Cost is = 1.0041209807711073 in iterations = 93
+Current average cost = 1.9980618780070274
+Current average cost = 1.006243037755122
+Current average cost = 1.0150362089286797
+Current average cost = 0.9962911764041475
+Current average cost = 1.013169683565546
+Current average cost = 1.0059817147141137
+Current average cost = 0.9970841162007675
+Current average cost = 1.007488018750916
+Current average cost = 1.0003325667551737
+Cost is = 1.0037476502053988 in iterations = 94
+Current average cost = 1.9973334798835083
+Current average cost = 1.005841940800639
+Current average cost = 1.01464150585853
+Current average cost = 0.9959211378280841
+Current average cost = 1.0128038802851376
+Current average cost = 1.005637136513792
+Current average cost = 0.9967293079563946
+Current average cost = 1.0071382566942684
+Current average cost = 0.9999894107159044
+Cost is = 1.0033940486099902 in iterations = 95
+Current average cost = 1.9966440934168062
+Current average cost = 1.005461239498865
+Current average cost = 1.0142669319169473
+Current average cost = 0.9955704435095134
+Current average cost = 1.0124573513384048
+Current average cost = 1.0053112209164756
+Current average cost = 0.9963934227126041
+Current average cost = 1.0068072268110502
+Current average cost = 0.9996648009394896
+Cost is = 1.0030591333381538 in iterations = 96
+Current average cost = 1.9959916430006899
+Current average cost = 1.0050998774171205
+Current average cost = 1.013911442844968
+Current average cost = 0.9952380767784412
+Current average cost = 1.0121290796283555
+Current average cost = 1.0050029694947906
+Current average cost = 0.9960754557866076
+Current average cost = 1.006493932471796
+Current average cost = 0.9993577462501804
+Cost is = 1.002741916846897 in iterations = 97
+Current average cost = 1.9953741630967041
+Current average cost = 1.0047568533805684
+Current average cost = 1.0135740490492973
+Current average cost = 0.9949230745445314
+Current average cost = 1.0118181017706434
+Current average cost = 1.004711436913198
+Current average cost = 0.995774455716993
+Current average cost = 1.0061974298972172
+Current average cost = 0.9990673081512653
+Cost is = 1.002441463784701 in iterations = 98
+Current average cost = 1.9947897924070574
+Current average cost = 1.0044312185671944
+Current average cost = 1.013253812727217
+Current average cost = 0.9946245244694424
+Current average cost = 1.0115235052559168
+Current average cost = 1.0044357281133567
+Current average cost = 0.9954895214476214
+Current average cost = 1.005916825360258
+Current average cost = 0.9987925980330399
+Cost is = 1.0021568882331764 in iterations = 99
+Current average cost = 1.9942367683557471
+Current average cost = 1.004122073755909
+Current average cost = 1.0129498451430627
+Current average cost = 0.9943415622884977
+Current average cost = 1.0112444257621127
+Current average cost = 1.00417499564847
+Current average cost = 0.9952197996604489
+Current average cost = 1.0056512725361628
+Current average cost = 0.998532774528547
+Cost is = 1.0018873510944915 in iterations = 100
+Current average cost = 1.993713421861613
+Current average cost = 1.0038285667196862
+Current average cost = 1.012661304048285
+Current average cost = 0.9940733692738062
+Current average cost = 1.0109800446087687
+Current average cost = 1.003928437158747
+Current average cost = 0.9949644822493997
+Current average cost = 1.0053999699927085
+Current average cost = 0.9982870410092775
+Cost is = 1.0016320576168884 in iterations = 101
+Current average cost = 1.9932181723879008
+Current average cost = 1.003549889756089
+Current average cost = 1.0123873912374988
+Current average cost = 0.9938191698313521
+Current average cost = 1.0107295863458474
+Current average cost = 1.0036952929805019
+Current average cost = 0.9947228039278265
+Current average cost = 1.0051621588132085
+Current average cost = 0.9980546432134231
+Cost is = 1.0013902550509688 in iterations = 102
+Current average cost = 1.9927495232537034
+Current average cost = 1.003285277347929
+Current average cost = 1.0121273502333556
+Current average cost = 0.9935782292249853
+Current average cost = 1.0104923164699717
+Current average cost = 1.0034748438818382
+Current average cost = 0.9944940399625048
+Current average cost = 1.0049371203452588
+Current average cost = 0.9978348669996763
+Cost is = 1.0011612304298532 in iterations = 103
+Current average cost = 1.9923060571934368
+Current average cost = 1.0030340039471886
+Current average cost = 1.0118804640934367
+Current average cost = 0.9933498514205994
+Current average cost = 1.010267539261328
+Current average cost = 1.0032664089182053
+Current average cost = 0.9942775040274668
+Current average cost = 1.00472417406858
+Current average cost = 0.9976270362199324
+Cost is = 1.000944308466654 in iterations = 104
+Current average cost = 1.9918864321512335
+Current average cost = 1.0027953818757103
+Current average cost = 1.0116460533327227
+Current average cost = 0.9931333770441542
+Current average cost = 1.0100545957348652
+Current average cost = 1.003069343401499
+Current average cost = 0.9940725461713376
+Current average cost = 1.0045226755756569
+Current average cost = 0.9974305107046076
+Cost is = 1.0007388495630798 in iterations = 105
+Current average cost = 1.9914893772978346
+Current average cost = 1.0025687593364827
+Current average cost = 1.0114234739555445
+Current average cost = 0.992928181447526
+Current average cost = 1.0098528616997535
+Current average cost = 1.002883036976693
+Current average cost = 0.993878550892177
+Current average cost = 1.0043320146592118
+Current average cost = 0.9972446843546127
+Cost is = 1.0005442479232727 in iterations = 106
+Current average cost = 1.99111368925821
+Current average cost = 1.0023535185296917
+Current average cost = 1.0112121155912395
+Current average cost = 0.9927336728764885
+Current average cost = 1.0096617459213755
+Current average cost = 1.0027069118003153
+Current average cost = 0.9936949353141407
+Current average cost = 1.004151613500864
+Current average cost = 0.9970689833343445
+Cost is = 1.0003599297673398 in iterations = 107
+Current average cost = 1.9907582285387715
+Current average cost = 1.0021490738680074
+Current average cost = 1.0110113997280328
+Current average cost = 0.9925492907354319
+Current average cost = 1.009480688380434
+Current average cost = 1.0025404208153814
+Current average cost = 0.9935211474605768
+Current average cost = 1.0039809249556193
+Current average cost = 0.9969028643603501
+Cost is = 1.0001853516393018 in iterations = 108
+Current average cost = 1.9904219161436152
+Current average cost = 1.0019548702858745
+Current average cost = 1.0108207780399703
+Current average cost = 0.992374503943706
+Current average cost = 1.0093091586240441
+Current average cost = 1.0023830461176817
+Current average cost = 0.9933566646184631
+Current average cost = 1.00381943092713
+Current average cost = 0.9967458130806012
+Cost is = 1.0000199988044622 in iterations = 109
+Current average cost = 1.9901037303698046
+Current average cost = 1.00177038163784
+Current average cost = 1.0106397308019848
+Current average cost = 0.9922088093787516
+Current average cost = 1.009146654203953
+Current average cost = 1.002234297408589
+Current average cost = 0.9932009917893477
+Current average cost = 1.0036666408289199
+Current average cost = 0.9965973425395879
+Cost is = 0.9998633837314781 in iterations = 110
+Current average cost = 1.9898027037722232
+Current average cost = 1.0015951091812278
+Current average cost = 1.0104677653884502
+Current average cost = 0.9920517304014297
+Current average cost = 1.0089926991972722
+Current average cost = 1.0020937105298082
+Current average cost = 0.9930536602222318
+Current average cost = 1.0035220901270276
+Current average cost = 0.9964569917246899
+Cost is = 0.9997150446546617 in iterations = 111
+Current average cost = 1.9895179202890283
+Current average cost = 1.0014285801387064
+Current average cost = 1.0103044148508178
+Current average cost = 0.9919028154592139
+Current average cost = 1.0088468428053758
+Current average cost = 1.0019608460757377
+Current average cost = 0.9929142260240484
+Current average cost = 1.003385338959768
+Current average cost = 0.996324324189526
+Cost is = 0.9995745442122537 in iterations = 112
+Current average cost = 1.989248512519215
+Current average cost = 1.0012703463365362
+Current average cost = 1.0101492365701588
+Current average cost = 0.9917616367631255
+Current average cost = 1.008708658026824
+Current average cost = 1.001835288079328
+Current average cost = 0.9927822688436443
+Current average cost = 1.0032559708305266
+Current average cost = 0.9961989267502114
+Cost is = 0.9994414681566749 in iterations = 113
+Current average cost = 1.9889936591442474
+Current average cost = 1.001119982914504
+Current average cost = 1.0100018109806688
+Current average cost = 0.9916277890345209
+Current average cost = 1.008577740400404
+Current average cost = 1.001716642767556
+Current average cost = 0.9926573906253754
+Current average cost = 1.0031335913697341
+Current average cost = 0.9960804082506615
+Cost is = 0.9993154241329366 in iterations = 114
+Current average cost = 1.9887525824861325
+Current average cost = 1.0009770871037669
+Current average cost = 1.0098617403603827
+Current average cost = 0.9915008883180398
+Current average cost = 1.0084537068145831
+Current average cost = 1.0016045373828273
+Current average cost = 0.9925392144286324
+Current average cost = 1.0030178271623476
+Current average cost = 0.9959683983932915
+Cost is = 0.9991960405216128 in iterations = 115
+Current average cost = 1.9885245461947274
+Current average cost = 1.0008412770690167
+Current average cost = 1.0097286476855585
+Current average cost = 0.9913805708572211
+Current average cost = 1.0083361943798637
+Current average cost = 1.0014986190668211
+Current average cost = 0.9924273833098157
+Current average cost = 1.0029083246373935
+Current average cost = 0.9958625466316555
+Cost is = 0.9990829653429668 in iterations = 116
+Current average cost = 1.9883088530574433
+Current average cost = 1.000712190811582
+Current average cost = 1.0096021755453728
+Current average cost = 0.9912664920294704
+Current average cost = 1.0082248593607175
+Current average cost = 1.001398553803467
+Current average cost = 0.9923215592634527
+Current average cost = 1.002804749016272
+Current average cost = 0.9957625211217364
+Cost is = 0.9989758652189904 in iterations = 117
+Current average cost = 1.9881048429248682
+Current average cost = 1.0005894851302441
+Current average cost = 1.0094819851137435
+Current average cost = 0.9911583253372548
+Current average cost = 1.008119376163949
+Current average cost = 1.001304025417936
+Current average cost = 0.9922214222193342
+Current average cost = 1.002706783316724
+Current average cost = 0.9956680077288003
+Cost is = 0.9988744243903003 in iterations = 118
+Current average cost = 1.9879118907461837
+Current average cost = 1.000472834636733
+Current average cost = 1.0093677551752682
+Current average cost = 0.9910557614525443
+Current average cost = 1.008019436380506
+Current average cost = 1.0012147346286695
+Current average cost = 0.9921266690927035
+Current average cost = 1.00261412740952
+Current average cost = 0.9955787090868571
+Cost is = 0.9987783437849964 in iterations = 119
+Current average cost = 1.9877294047085659
+Current average cost = 1.000361930823012
+Current average cost = 1.0092591812024245
+Current average cost = 0.9909585073116931
+Current average cost = 1.007924747877917
+Current average cost = 1.0011303981496449
+Current average cost = 0.9920370128846979
+Current average cost = 1.0025264971250725
+Current average cost = 0.9954943437079585
+Cost is = 0.9986873401367264 in iterations = 120
+Current average cost = 1.987556824475071
+Current average cost = 1.0002564811776262
+Current average cost = 1.009155974481331
+Current average cost = 0.9908662852580976
+Current average cost = 1.007835033940674
+Current average cost = 1.001050747840224
+Current average cost = 0.991952181830381
+Current average cost = 1.00244362340734
+Current average cost = 0.995414645138687
+Cost is = 0.9986011451493665 in iterations = 121
+Current average cost = 1.987393619515797
+Current average cost = 1.0001562083485236
+Current average cost = 1.0090578612835002
+Current average cost = 0.9907788322301029
+Current average cost = 1.007750032456034
+Current average cost = 1.0009755299000538
+Current average cost = 0.991871918591851
+Current average cost = 1.0023652515125174
+Current average cost = 0.995339361161343
+Cost is = 0.9985195047058439 in iterations = 122
+Current average cost = 1.9872392875273879
+Current average cost = 1.000060849349905
+Current average cost = 1.0089645820811695
+Current average cost = 0.9906958989917729
+Current average cost = 1.007669495142832
+Current average cost = 1.0009045041066473
+Current average cost = 0.9917959794940435
+Current average cost = 1.0022911402501438
+Current average cost = 0.9952682530374635
+Cost is = 0.998442178118776 in iterations = 123
+Current average cost = 1.9870933529362074
+Current average cost = 0.9999701548107719
+Current average cost = 1.0088758908039035
+Current average cost = 0.9906172494042581
+Current average cost = 1.007593186821039
+Current average cost = 1.0008374430933777
+Current average cost = 0.9917241338009652
+Current average cost = 1.0022210612643863
+Current average cost = 0.9952010947914276
+Cost is = 0.9983689374207145 in iterations = 124
+Current average cost = 1.9869553654807528
+Current average cost = 0.9998838882629835
+Current average cost = 1.0087915541342962
+Current average cost = 0.990542659735614
+Current average cost = 1.007520884719909
+Current average cost = 1.0007741316657492
+Current average cost = 0.9916561630302285
+Current average cost = 1.002154798353373
+Current average cost = 0.9951376725320398
+Cost is = 0.9982995666918983 in iterations = 125
+Current average cost = 1.9868248988691248
+Current average cost = 0.9998018254667365
+Current average cost = 1.0087113508407084
+Current average cost = 0.9904719180070474
+Current average cost = 1.0074523778226752
+Current average cost = 1.0007143661539213
+Current average cost = 0.9915918603038534
+Current average cost = 1.0020921468245614
+Current average cost = 0.9950777838100635
+Cost is = 0.9982338614235405 in iterations = 126
+Current average cost = 1.9867015495075813
+Current average cost = 0.9997237537714951
+Current average cost = 1.008635071145092
+Current average cost = 0.9904048233736568
+Current average cost = 1.0073874662458655
+Current average cost = 1.0006579537995597
+Current average cost = 0.9915310297334237
+Current average cost = 1.0020329128842391
+Current average cost = 0.9950212370098168
+Cost is = 0.9981716279147532 in iterations = 127
+Current average cost = 1.9865849352964005
+Current average cost = 0.9996494715105027
+Current average cost = 1.0085625161240508
+Current average cost = 0.990341185537854
+Current average cost = 1.0073259606514102
+Current average cost = 1.0006047121752066
+Current average cost = 0.9914734858377827
+Current average cost = 1.0019769130593488
+Current average cost = 0.99496785077302
+Cost is = 0.998112682701364 in iterations = 128
+Current average cost = 1.9864746944895235
+Current average cost = 0.9995787874271089
+Current average cost = 1.008493497141379
+Current average cost = 0.9902808241937351
+Current average cost = 1.0072676816898039
+Current average cost = 1.0005544686344394
+Current average cost = 0.991419052991539
+Current average cost = 1.0019239736499288
+Current average cost = 0.9949174534531906
+Cost is = 0.9980568520149025 in iterations = 129
+Current average cost = 1.986370484614567
+Current average cost = 0.9995115201312293
+Current average cost = 1.0084278353104312
+Current average cost = 0.9902235685007694
+Current average cost = 1.0072124594726828
+Current average cost = 1.0005070597911951
+Current average cost = 0.9913675649027631
+Current average cost = 1.001873930210547
+Current average cost = 0.994869882598965
+Cost is = 0.998003971270187 in iterations = 130
+Current average cost = 1.986271981450037
+Current average cost = 0.9994474975843575
+Current average cost = 1.008365360984739
+Current average cost = 0.9901692565852578
+Current average cost = 1.00716013307327
+Current average cost = 1.000462331026711
+Current average cost = 0.9913188641183244
+Current average cost = 1.0018266270592011
+Current average cost = 0.9948249844648223
+Cost is = 0.9979538845799958 in iterations = 131
+Current average cost = 1.9861788780567076
+Current average cost = 0.9993865566116188
+Current average cost = 1.0083059132753949
+Current average cost = 0.9901177350680926
+Current average cost = 1.0071105500532016
+Current average cost = 1.0004201360226237
+Current average cost = 0.9912728015554071
+Current average cost = 1.001781916812222
+Current average cost = 0.9947826135477513
+Cost is = 0.997906444295383 in iterations = 132
+Current average cost = 1.9860908838603006
+Current average cost = 0.9993285424394452
+Current average cost = 1.0082493395937873
+Current average cost = 0.9900688586174331
+Current average cost = 1.0070635660143537
+Current average cost = 1.000380336318837
+Current average cost = 0.9912292360578258
+Current average cost = 1.0017396599438129
+Current average cost = 0.9947426321484943
+Cost is = 0.9978615105702855 in iterations = 133
+Current average cost = 1.986007723782753
+Current average cost = 0.9992733082575203
+Current average cost = 1.008195495218353
+Current average cost = 0.9900224895249761
+Current average cost = 1.0070190441743454
+Current average cost = 1.0003428008948503
+Current average cost = 0.9911880339758212
+Current average cost = 1.0016997243689179
+Current average cost = 0.9947049099560632
+Cost is = 0.9978189509491554 in iterations = 134
+Current average cost = 1.985929137419498
+Current average cost = 0.9992207148037175
+Current average cost = 1.0081442428840837
+Current average cost = 0.9899784973045817
+Current average cost = 1.0069768549644587
+Current average cost = 1.000307405773306
+Current average cost = 0.9911490687681027
+Current average cost = 1.0016619850481838
+Current average cost = 0.9946693236542936
+Cost is = 0.9977786399763661 in iterations = 135
+Current average cost = 1.9858548782603305
+Current average cost = 0.9991706299708163
+Current average cost = 1.0080954523935832
+Current average cost = 0.9899367583120707
+Current average cost = 1.0069368756488029
+Current average cost = 1.0002740336445721
+Current average cost = 0.9911122206249509
+Current average cost = 1.0016263236138503
+Current average cost = 0.994635756549276
+Cost is = 0.9977404588262775 in iterations = 136
+Current average cost = 1.9857847129515434
+Current average cost = 0.9991229284338552
+Current average cost = 1.0080490002485454
+Current average cost = 0.9898971553850744
+Current average cost = 1.006898989963595
+Current average cost = 1.0002425735112586
+Current average cost = 0.9910773761112767
+Current average cost = 1.0015926280154575
+Current average cost = 0.9946040982165532
+Cost is = 0.9977042949528431 in iterations = 137
+Current average cost = 1.9857184205971645
+Current average cost = 0.9990774912970327
+Current average cost = 1.0080047693005743
+Current average cost = 0.9898595775018807
+Current average cost = 1.0068630877754923
+Current average cost = 1.0002129203515961
+Current average cost = 0.9910444278285752
+Current average cost = 1.0015607921843221
+Current average cost = 0.9945742441670365
+Cost is = 0.9976700417577434 in iterations = 138
+Current average cost = 1.9856557920972038
+Current average cost = 0.999034205759124
+Current average cost = 1.0079626484203257
+Current average cost = 0.9898239194582732
+Current average cost = 1.0068290647579714
+Current average cost = 1.000184974800694
+Current average cost = 0.9910132740947748
+Current average cost = 1.001530715715795
+Current average cost = 0.9945460955306583
+Cost is = 0.9976375982760477 in iterations = 139
+Current average cost = 1.9855966295209726
+Current average cost = 0.9989929647964442
+Current average cost = 1.0079225321840122
+Current average cost = 0.9897900815614126
+Current average cost = 1.006796822084803
+Current average cost = 1.000158642848715
+Current average cost = 0.9909838186410385
+Current average cost = 1.0015023035683492
+Current average cost = 0.9945195587568089
+Cost is = 0.9976068688785001 in iterations = 140
+Current average cost = 1.9855407455136114
+Current average cost = 0.9989536668624293
+Current average cost = 1.0078843205763492
+Current average cost = 0.9897579693398588
+Current average cost = 1.0067662661397159
+Current average cost = 1.0001338355550857
+Current average cost = 0.9909559703246161
+Current average cost = 1.001475465778618
+Current average cost = 0.9944945453306768
+Cost is = 0.9975777629895314 in iterations = 141
+Current average cost = 1.9854879627340598
+Current average cost = 0.9989162156029646
+Current average cost = 1.0078479187090843
+Current average cost = 0.9897274932688876
+Current average cost = 1.006737308241395
+Current average cost = 1.0001104687778786
+Current average cost = 0.9909296428569034
+Current average cost = 1.00145011719153
+Current average cost = 0.9944709715046516
+Cost is = 0.9975501948201769 in iterations = 142
+Current average cost = 1.9854381133228223
+Current average cost = 0.9988805195866288
+Current average cost = 1.0078132365542798
+Current average cost = 0.9896985685102871
+Current average cost = 1.0067098643830072
+Current average cost = 1.000088462917574
+Current average cost = 0.9909047545458991
+Current average cost = 1.0014261772047501
+Current average cost = 0.9944487580439821
+Cost is = 0.9975240831151126 in iterations = 143
+Current average cost = 1.9853910383979407
+Current average cost = 0.9988464920490682
+Current average cost = 1.0077801886915845
+Current average cost = 0.9896711146658751
+Current average cost = 1.0066838549854782
+Current average cost = 1.0000677426744322
+Current average cost = 0.990881228052301
+Current average cost = 1.0014035695266639
+Current average cost = 0.9944278299859471
+Cost is = 0.9974993509130572 in iterations = 144
+Current average cost = 1.9853465875776795
+Current average cost = 0.9988140506507637
+Current average cost = 1.0077486940687463
+Current average cost = 0.98964505554401
+Current average cost = 1.0066592046638092
+Current average cost = 1.000048236818758
+Current average cost = 0.9908589901585172
+Current average cost = 1.0013822219471895
+Current average cost = 0.9944081164118108
+Cost is = 0.9974759253198321 in iterations = 145
+Current average cost = 1.985304618528518
+Current average cost = 0.9987831172474768
+Current average cost = 1.0077186757746763
+Current average cost = 0.9896203189384115
+Current average cost = 1.0066358420057264
+Current average cost = 1.0000298779733732
+Current average cost = 0.9908379715499136
+Current average cost = 1.0013620661207407
+Current average cost = 0.9943895502308958
+Cost is = 0.9974537372934286 in iterations = 146
+Current average cost = 1.9852649965371048
+Current average cost = 0.9987536176727163
+Current average cost = 1.007690060824402
+Current average cost = 0.9895968364186396
+Current average cost = 1.0066136993620265
+Current average cost = 1.0000126024076512
+Current average cost = 0.990818106607643
+Current average cost = 1.0013430373606937
+Current average cost = 0.994372067976124
+Cost is = 0.99743272144042 in iterations = 147
+Current average cost = 1.9852275941049027
+Current average cost = 0.9987254815315854
+Current average cost = 1.0076627799552806
+Current average cost = 0.989574543131617
+Current average cost = 1.006592712647992
+Current average cost = 0.9999963498425004
+Current average cost = 0.9907993332124521
+Current average cost = 1.0013250744447542
+Current average cost = 0.9943556096104214
+Cost is = 0.9974128158231433 in iterations = 148
+Current average cost = 1.9851922905643389
+Current average cost = 0.9986986420054202
+Current average cost = 1.007636767433889
+Current average cost = 0.9895533776136141
+Current average cost = 1.006572821155295
+Current average cost = 0.9999810632657142
+Current average cost = 0.9907815925588768
+Current average cost = 1.0013081194306417
+Current average cost = 0.9943401183434117
+Cost is = 0.9973939617770624 in iterations = 149
+Current average cost = 1.985158971715291
+Current average cost = 0.9986730356666437
+Current average cost = 1.0076119608730167
+Current average cost = 0.9895332816121403
+Current average cost = 1.0065539673738324
+Current average cost = 0.9999666887571422
+Current average cost = 0.9907648289792815
+Current average cost = 1.0012921174815506
+Current average cost = 0.9943255404578506
+Cost is = 0.9973761037377985 in iterations = 150
+Current average cost = 1.985127529480876
+Current average cost = 0.9986486023033004
+Current average cost = 1.0075883010582405
+Current average cost = 0.9895141999172227
+Current average cost = 1.0065360968229735
+Current average cost = 0.9999531753231568
+Current average cost = 0.9907489897772226
+Current average cost = 1.0012770167008633
+Current average cost = 0.9943118251452873
+Cost is = 0.9973591890772778 in iterations = 151
+Current average cost = 1.9850978615814714
+Current average cost = 0.9986252847527679
+Current average cost = 1.0075657317835724
+Current average cost = 0.9894960802015742
+Current average cost = 1.0065191578917148
+Current average cost = 0.9999404747399273
+Current average cost = 0.9907340250696357
+Current average cost = 1.0012627679756363
+Current average cost = 0.9942989243504613
+Cost is = 0.9973431679485681 in iterations = 152
+Current average cost = 1.9850698712260457
+Current average cost = 0.9986030287441553
+Current average cost = 1.0075441996957042
+Current average cost = 0.9894788728691852
+Current average cost = 1.006503101687278
+Current average cost = 0.9999285414050318
+Current average cost = 0.9907198876373882
+Current average cost = 1.001249324828382
+Current average cost = 0.9942867926239763
+Cost is = 0.9973279931388872 in iterations = 153
+Current average cost = 1.9850434668198536
+Current average cost = 0.9985817827489372
+Current average cost = 1.0075236541463963
+Current average cost = 0.9894625309118881
+Current average cost = 1.0064878818917031
+Current average cost = 0.9999173321969635
+Current average cost = 0.9907065327837487
+Current average cost = 1.001236643276718
+Current average cost = 0.9942753869828046
+Cost is = 0.9973136199304062 in iterations = 154
+Current average cost = 1.9850185616876448
+Current average cost = 0.9985614978393895
+Current average cost = 1.007504047052585
+Current average cost = 0.9894470097734827
+Current average cost = 1.0064734546260123
+Current average cost = 0.9999068063421163
+Current average cost = 0.990693918200358
+Current average cost = 1.001224681700459
+Current average cost = 0.9942646667782149
+Cost is = 0.9973000059683841 in iterations = 155
+Current average cost = 1.9849950738115563
+Current average cost = 0.9985421275544153
+Current average cost = 1.0074853327637991
+Current average cost = 0.9894322672210147
+Current average cost = 1.0064597783215476
+Current average cost = 0.9998969252888511
+Current average cost = 0.9906820038403001
+Current average cost = 1.0012134007157651
+Current average cost = 0.9942545935707265
+Cost is = 0.997287111136292 in iterations = 156
+Current average cost = 1.9849729255829147
+Current average cost = 0.9985236277723754
+Current average cost = 1.0074674679365068
+Current average cost = 0.9894182632228372
+Current average cost = 1.0064468135981017
+Current average cost = 0.9998876525882657
+Current average cost = 0.9906707517979025
+Current average cost = 1.001202763055964
+Current average cost = 0.9942451310117141
+Cost is = 0.9972748974375254 in iterations = 157
+Current average cost = 1.9849520435672101
+Current average cost = 0.9985059565905539
+Current average cost = 1.0074504114150207
+Current average cost = 0.989404959833091
+Current average cost = 1.0064345231484826
+Current average cost = 0.9998789537813157
+Current average cost = 0.9906601261949076
+Current average cost = 1.001192733458701
+Current average cost = 0.9942362447313171
+Cost is = 0.9972633288833719 in iterations = 158
+Current average cost = 1.9849323582815497
+Current average cost = 0.9984890742109108
+Current average cost = 1.007434124118625
+Current average cost = 0.9893923210822713
+Current average cost = 1.0064228716291754
+Current average cost = 0.9998707962919475
+Current average cost = 0.9906500930726763
+Current average cost = 1.0011832785590784
+Current average cost = 0.9942279022323136
+Cost is = 0.9972523713868986 in iterations = 159
+Current average cost = 1.984913803983917
+Current average cost = 0.9984729428317923
+Current average cost = 1.0074185689345951
+Current average cost = 0.9893803128735549
+Current average cost = 1.0064118255567738
+Current average cost = 0.9998631493259256
+Current average cost = 0.990640620290107
+Current average cost = 1.0011743667884667
+Current average cost = 0.9942200727896451
+Cost is = 0.9972419926624486 in iterations = 160
+Current average cost = 1.9848963184736257
+Current average cost = 0.9984575265452837
+Current average cost = 1.0074037106167943
+Current average cost = 0.9893689028845849
+Current average cost = 1.006401353209882
+Current average cost = 0.9998559837750494
+Current average cost = 0.9906316774269662
+Current average cost = 1.0011659682786902
+Current average cost = 0.9942127273552922
+Cost is = 0.9972321621304459 in iterations = 161
+Current average cost = 1.9848798429023677
+Current average cost = 0.9984427912399132
+Current average cost = 1.0073895156895663
+Current average cost = 0.9893580604744292
+Current average cost = 1.0063914245361942
+Current average cost = 0.9998492721264777
+Current average cost = 0.9906232356923448
+Current average cost = 1.0011580547712953
+Current average cost = 0.9942058384682164
+Cost is = 0.9972228508272375 in iterations = 162
+Current average cost = 1.984864321595295
+Current average cost = 0.9984287045084207
+Current average cost = 1.0073759523566337
+Current average cost = 0.9893477565954318
+Current average cost = 1.0063820110644799
+Current average cost = 0.999842988376886
+Current average cost = 0.9906152678379685
+Current average cost = 1.001150599531644
+Current average cost = 0.9941993801690995
+Cost is = 0.9972140313196939 in iterations = 163
+Current average cost = 1.984849701881601
+Current average cost = 0.9984152355603305
+Current average cost = 1.0073629904147483
+Current average cost = 0.9893379637097084
+Current average cost = 1.0063730858212148
+Current average cost = 0.9998371079512024
+Current average cost = 0.9906077480761043
+Current average cost = 1.0011435772675634
+Current average cost = 0.9941933279196273
+Cost is = 0.9972056776243268 in iterations = 164
+Current average cost = 1.9848359339341104
+Current average cost = 0.998402355139073
+Current average cost = 1.0073506011718396
+Current average cost = 0.9893286557100327
+Current average cost = 1.0063646232516164
+Current average cost = 0.9998316076256775
+Current average cost = 0.9906006520018238
+Current average cost = 1.0011369640523207
+Current average cost = 0.994187658526075
+Cost is = 0.9971977651306769 in iterations = 165
+Current average cost = 1.9848229706173783
+Current average cost = 0.998390035443417
+Current average cost = 1.0073387573694268
+Current average cost = 0.9893198078448877
+Current average cost = 1.0063565991448415
+Current average cost = 0.999826465455059
+Current average cost = 0.9905939565193836
+Current average cost = 1.0011307372516884
+Current average cost = 0.9941823500669645
+Cost is = 0.99719027052876 in iterations = 166
+Current average cost = 1.9848107673438726
+Current average cost = 0.9983782500529882
+Current average cost = 1.007327433109069
+Current average cost = 0.9893113966474611
+Current average cost = 1.0063489905631384
+Current average cost = 0.999821660703654
+Current average cost = 0.9905876397725203
+Current average cost = 1.0011248754548856
+Current average cost = 0.9941773818245828
+Cost is = 0.9971831717403346 in iterations = 167
+Current average cost = 1.9847992819377922
+Current average cost = 0.9983669738576598
+Current average cost = 1.0073166037826458
+Current average cost = 0.9893033998683738
+Current average cost = 1.0063417757747344
+Current average cost = 0.9998171737800684
+Current average cost = 0.9905816810784323
+Current average cost = 1.0011193584091884
+Current average cost = 0.9941727342201506
+Cost is = 0.9971764478538114 in iterations = 168
+Current average cost = 1.9847884745061222
+Current average cost = 0.9983561829906105
+Current average cost = 1.0073062460062623
+Current average cost = 0.9892957964119479
+Current average cost = 1.0063349341902683
+Current average cost = 0.9998129861754359
+Current average cost = 0.9905760608652734
+Current average cost = 1.0011141669580157
+Current average cost = 0.9941683887524496
+Cost is = 0.9971700790626001 in iterations = 169
+Current average cost = 1.9847783073165501
+Current average cost = 0.998345854764856
+Current average cost = 1.0072963375575925
+Current average cost = 0.9892885662758278
+Current average cost = 1.0063284463025766
+Current average cost = 0.9998090804049411
+Current average cost = 0.990570760612959
+Current average cost = 1.0011092829823078
+Current average cost = 0.9941643279397269
+Cost is = 0.9971640466067174 in iterations = 170
+Current average cost = 1.9847687446818667
+Current average cost = 0.998335967613081
+Current average cost = 1.0072868573164793
+Current average cost = 0.9892816904937763
+Current average cost = 1.0063222936296574
+Current average cost = 0.9998054399524712
+Current average cost = 0.9905657627971122
+Current average cost = 1.0011046893450204
+Current average cost = 0.9941605352646988
+Cost is = 0.997158332717469 in iterations = 171
+Current average cost = 1.9847597528505179
+Current average cost = 0.9983265010305888
+Current average cost = 1.0072777852086192
+Current average cost = 0.9892751510814757
+Current average cost = 1.006316458660647
+Current average cost = 0.9998020492182225
+Current average cost = 0.9905610508359894
+Current average cost = 1.001100369838569
+Current average cost = 0.9941569951224916
+Cost is = 0.9971529205650731 in iterations = 172
+Current average cost = 1.9847512999029735
+Current average cost = 0.9983174355212061
+Current average cost = 1.0072691021521736
+Current average cost = 0.9892689309851814
+Current average cost = 1.0063109248046433
+Current average cost = 0.9997988934691111
+Current average cost = 0.9905566090402184
+Current average cost = 1.0010963091350704
+Current average cost = 0.9941536927713626
+Cost is = 0.9971477942090383 in iterations = 173
+Current average cost = 1.9847433556536145
+Current average cost = 0.9983087525459975
+Current average cost = 1.0072607900071497
+Current average cost = 0.9892630140330743
+Current average cost = 1.0063056763422342
+Current average cost = 0.9997959587918333
+Current average cost = 0.990552422565208
+Current average cost = 1.0010924927392324
+Current average cost = 0.9941506142860554
+Cost is = 0.9971429385511679 in iterations = 174
+Current average cost = 1.984735891557834
+Current average cost = 0.9983004344746341
+Current average cost = 1.0072528315274085
+Current average cost = 0.9892573848891677
+Current average cost = 1.00630069837958
+Current average cost = 0.9997932320484374
+Current average cost = 0.9905484773660819
+Current average cost = 1.0010889069437447
+Current average cost = 0.9941477465136448
+Cost is = 0.9971383392910522 in iterations = 175
+Current average cost = 1.9847288806240866
+Current average cost = 0.9982924645392786
+Current average cost = 1.007245210315159
+Current average cost = 0.9892520290096393
+Current average cost = 1.006295976804922
+Current average cost = 0.9997907008342748
+Current average cost = 0.9905447601550081
+Current average cost = 1.0010855387870488
+Current average cost = 0.9941450770317463
+Cost is = 0.9971339828839044 in iterations = 176
+Current average cost = 1.984722297330616
+Current average cost = 0.9982848267908568
+Current average cost = 1.0072379107778169
+Current average cost = 0.9892469326014549
+Current average cost = 1.0062914982473847
+Current average cost = 0.9997883534381995
+Current average cost = 0.9905412583607915
+Current average cost = 1.0010823760133525
+Current average cost = 0.9941425941089562
+Cost is = 0.997129856500633 in iterations = 177
+Current average cost = 1.9847161175466144
+Current average cost = 0.998277506057593
+Current average cost = 1.007230918087089
+Current average cost = 0.989242082583168
+Current average cost = 1.0062872500379503
+Current average cost = 0.9997861788049012
+Current average cost = 0.9905379600906153
+Current average cost = 1.001079407034775
+Current average cost = 0.9941402866674117
+Cost is = 0.9971259479900193 in iterations = 178
+Current average cost = 1.9847103184575867
+Current average cost = 0.9982704879056851
+Current average cost = 1.0072242181401854
+Current average cost = 0.9892374665477766
+Current average cost = 1.006283220172494
+Current average cost = 0.9997841664992558
+Current average cost = 0.990534854093813
+Current average cost = 1.0010766208955055
+Current average cost = 0.9941381442473511
+Cost is = 0.9971222458428944 in iterations = 179
+Current average cost = 1.9847048784946781
+Current average cost = 0.9982637586020134
+Current average cost = 1.0072177975230314
+Current average cost = 0.9892330727275315
+Current average cost = 1.0062793972767694
+Current average cost = 0.999782306672585
+Current average cost = 0.9905319297275662
+Current average cost = 1.001074007237873
+Current average cost = 0.9941361569735733
+Cost is = 0.997118739158214 in iterations = 180
+Current average cost = 1.9846997772677788
+Current average cost = 0.9982573050787735
+Current average cost = 1.0072116434753866
+Current average cost = 0.9892288899605928
+Current average cost = 1.0062757705732408
+Current average cost = 0.9997805900307288
+Current average cost = 0.9905291769244237
+Current average cost = 1.001071556270219
+Current average cost = 0.9941343155236927
+Cost is = 0.9971154176109169 in iterations = 181
+Current average cost = 1.9846949955021802
+Current average cost = 0.9982511148999338
+Current average cost = 1.0072057438577646
+Current average cost = 0.989224907659435
+Current average cost = 1.0062723298496627
+Current average cost = 0.9997790078038242
+Current average cost = 0.9905265861615475
+Current average cost = 1.0010692587364889
+Current average cost = 0.9941326110980946
+Cost is = 0.9971122714214916 in iterations = 182
+Current average cost = 1.9846905149786191
+Current average cost = 0.9982451762294225
+Current average cost = 1.007200087120062
+Current average cost = 0.9892211157809131
+Current average cost = 1.0062690654293232
+Current average cost = 0.999777551717712
+Current average cost = 0.9905241484315954
+Current average cost = 1.001067105887437
+Current average cost = 0.9941310353914995
+Cost is = 0.9971092913271462 in iterations = 183
+Current average cost = 1.9846863184765096
+Current average cost = 0.9982394778009542
+Current average cost = 1.0071946622718078
+Current average cost = 0.9892175047978965
+Current average cost = 1.0062659681428485
+Current average cost = 0.999776213966874
+Current average cost = 0.9905218552151475
+Current average cost = 1.0010650894533701
+Current average cost = 0.9941295805660559
+Cost is = 0.9971064685545009 in iterations = 184
+Current average cost = 1.9846823897201997
+Current average cost = 0.9982340088894089
+Current average cost = 1.0071894588539443
+Current average cost = 0.9892140656723942
+Current average cost = 1.0062630293015022
+Current average cost = 0.9997749871888268
+Current average cost = 0.9905196984546019
+Current average cost = 1.0010632016183432
+Current average cost = 0.9941282392258701
+Cost is = 0.9971037947937307 in iterations = 185
+Current average cost = 1.984678713328107
+Current average cost = 0.998228759283684
+Current average cost = 1.0071844669120709
+Current average cost = 0.989210789830088
+Current average cost = 1.006260240671888
+Current average cost = 0.9997738644398885
+Current average cost = 0.9905176705294568
+Current average cost = 1.001061434995732
+Current average cost = 0.9941270043929077
+Cost is = 0.9971012621740634 in iterations = 186
+Current average cost = 1.9846752747645493
+Current average cost = 0.998223719260945
+Current average cost = 1.0071796769710553
+Current average cost = 0.9892076691362016
+Current average cost = 1.0062575944519876
+Current average cost = 0.9997728391722494
+Current average cost = 0.9905157642329098
+Current average cost = 1.0010597826051069
+Current average cost = 0.9941258694841851
+Cost is = 0.9970988632405808 in iterations = 187
+Current average cost = 1.9846720602941599
+Current average cost = 0.9982188795621925
+Current average cost = 1.0071750800109611
+Current average cost = 0.9892046958726342
+Current average cost = 1.0062550832484642
+Current average cost = 0.999771905212277
+Current average cost = 0.9905139727496973
+Current average cost = 1.001058237850342
+Current average cost = 0.9941248282901901
+Cost is = 0.9970965909322468 in iterations = 188
+Current average cost = 1.9846690569387302
+Current average cost = 0.9982142313690922
+Current average cost = 1.007170667444211
+Current average cost = 0.9892018627162955
+Current average cost = 1.0062527000551607
+Current average cost = 0.999771056739986
+Current average cost = 0.9905122896351187
+Current average cost = 1.0010567944988944
+Current average cost = 0.9941238749544553
+Cost is = 0.997094438561087 in iterations = 189
+Current average cost = 1.9846662524363547
+Current average cost = 0.9982097662819867
+Current average cost = 1.0071664310939228
+Current average cost = 0.989199162718573
+Current average cost = 1.006250438232731
+Current average cost = 0.9997702882696157
+Current average cost = 0.9905107087951726
+Current average cost = 1.0010554466621833
+Current average cost = 0.9941230039542368
+Cost is = 0.9970923997924841 in iterations = 190
+Current average cost = 1.9846636352027613
+Current average cost = 0.9982054762990368
+Current average cost = 1.0071623631733606
+Current average cost = 0.9891965892858782
+Current average cost = 1.0062482914893491
+Current average cost = 0.999769594631252
+Current average cost = 0.9905092244677508
+Current average cost = 1.0010541887770248
+Current average cost = 0.994122210082226
+Cost is = 0.9970904686264949 in iterations = 191
+Current average cost = 1.9846611942947046
+Current average cost = 0.9982013537964335
+Current average cost = 1.0071584562664408
+Current average cost = 0.9891941361612078
+Current average cost = 1.0062462538624313
+Current average cost = 0.9997689709534399
+Current average cost = 0.9905078312048369
+Current average cost = 1.0010530155880528
+Current average cost = 0.9941214884292489
+Cost is = 0.9970886393801756 in iterations = 192
+Current average cost = 1.9846589193753155
+Current average cost = 0.9981973915096185
+Current average cost = 1.0071547033092374
+Current average cost = 0.9891917974066764
+Current average cost = 1.0062443197013218
+Current average cost = 0.9997684126467348
+Current average cost = 0.9905065238556482
+Current average cost = 1.001051922131081
+Current average cost = 0.9941208343678939
+Cost is = 0.997086906670824 in iterations = 193
+Current average cost = 1.9846568006813037
+Current average cost = 0.9981935825154691
+Current average cost = 1.0071510975724343
+Current average cost = 0.9891895673869587
+Current average cost = 1.006242483650897
+Current average cost = 0.9997679153881398
+Current average cost = 0.9905052975506777
+Current average cost = 1.0010509037173547
+Current average cost = 0.9941202435370252
+Cost is = 0.9970852654001167 in iterations = 194
+Current average cost = 1.9846548289919141
+Current average cost = 0.998189920215389
+Current average cost = 1.0071476326446807
+Current average cost = 0.9891874407536015
+Current average cost = 1.0062407406360245
+Current average cost = 0.9997674751063845
+Current average cost = 0.9905041476865865
+Current average cost = 1.0010499559186428
+Current average cost = 0.9941197118271259
+Cost is = 0.997083710739081 in iterations = 195
+Current average cost = 1.9846529955995404
+Current average cost = 0.9981863983192673
+Current average cost = 1.0071443024167943
+Current average cost = 0.9891854124301551
+Current average cost = 1.0062390858468508
+Current average cost = 0.999767087967997
+Current average cost = 0.9905030699119001
+Current average cost = 1.0010490745531302
+Current average cost = 0.9941192353664343
+Cost is = 0.9970822381138659 in iterations = 196
+Current average cost = 1.9846512922819137
+Current average cost = 0.9981830108302511
+Current average cost = 1.0071411010667737
+Current average cost = 0.9891834775980832
+Current average cost = 1.0062375147248575
+Current average cost = 0.999766750364131
+Current average cost = 0.9905020601134679
+Current average cost = 1.0010482556720595
+Current average cost = 0.9941188105078295
+Cost is = 0.9970808431922557 in iterations = 197
+Current average cost = 1.9846497112757802
+Current average cost = 0.9981797520302967
+Current average cost = 1.0071380230455764
+Current average cost = 0.9891816316834113
+Current average cost = 1.0062360229496548
+Current average cost = 0.9997664588981039
+Current average cost = 0.9905011144036433
+Current average cost = 1.0010474955470943
+Current average cost = 0.9941184338164195
+Cost is = 0.9970795218709062 in iterations = 198
+Current average cost = 1.984648245251984
+Current average cost = 0.9981766164664558
+Current average cost = 1.0071350630636247
+Current average cost = 0.98917987034407
+Current average cost = 1.006234606426473
+Current average cost = 0.9997662103736088
+Current average cost = 0.9905002291081489
+Current average cost = 1.0010467906583544
+Current average cost = 0.994118102057806
+Cost is = 0.9970782702632477 in iterations = 199
+Current average cost = 1.9846468872918894
+Current average cost = 0.9981735989378582
+Current average cost = 1.0071322160779952
+Current average cost = 0.9891781894579037
+Current average cost = 1.0062332612743083
+Current average cost = 0.9997660017835674
+Current average cost = 0.9904994007545873
+Current average cost = 1.001046137683093
+Current average cost = 0.9941178121869785
+Cost is = 0.9970770846880322 in iterations = 200
+Current average cost = 1.984645630865063
+Current average cost = 0.9981706944833558
+Current average cost = 1.0071294772802672
+Current average cost = 0.989176585111303
+Current average cost = 1.006231983814698
+Current average cost = 0.9997658302995843
+Current average cost = 0.9904986260615664
+Current average cost = 1.0010455334849795
+Current average cost = 0.9941175613378113
+Cost is = 0.9970759616584872 in iterations = 201
+Current average cost = 1.9846444698081522
+Current average cost = 0.9981678983697977
+Current average cost = 1.0071268420849864
+Current average cost = 0.989175053588433
+Current average cost = 1.0062307705610833
+Current average cost = 0.9997656932619737
+Current average cost = 0.9904979019284026
+Current average cost = 1.0010449751039607
+Current average cost = 0.9941173468131291
+Cost is = 0.9970748978720335 in iterations = 202
+Current average cost = 1.9846433983048986
+Current average cost = 0.9981652060808921
+Current average cost = 1.007124306118712
+Current average cost = 0.9891735913610233
+Current average cost = 1.0062296182087365
+Current average cost = 0.999765588170329
+Current average cost = 0.9904972254253765
+Current average cost = 1.0010444597466592
+Current average cost = 0.9941171660753092
+Cost is = 0.9970738902005587 in iterations = 203
+Current average cost = 1.9846424108672196
+Current average cost = 0.9981626133066401
+Current average cost = 1.007121865209629
+Current average cost = 0.9891721950786909
+Current average cost = 1.006228523625213
+Current average cost = 0.9997655126746036
+Current average cost = 0.9904965937845072
+Current average cost = 1.0010439847772923
+Current average cost = 0.9941170167373927
+Cost is = 0.9970729356811926 in iterations = 204
+Current average cost = 1.9846415023173087
+Current average cost = 0.9981601159332987
+Current average cost = 1.0071195153776789
+Current average cost = 0.9891708615597686
+Current average cost = 1.0062274838413123
+Current average cost = 0.9997654645666756
+Current average cost = 0.9904960043908181
+Current average cost = 1.0010435477090756
+Current average cost = 0.9941168965546806
+Cost is = 0.9970720315075814 in iterations = 205
+Current average cost = 1.9846406677706951
+Current average cost = 0.9981577100338539
+Current average cost = 1.0071172528251964
+Current average cost = 0.989169587782613
+Current average cost = 1.0062264960425116
+Current average cost = 0.9997654417723721
+Current average cost = 0.9904954547740725
+Current average cost = 1.001043146196089
+Current average cost = 0.9941168034167814
+Cost is = 0.9970711750216161 in iterations = 206
+Current average cost = 1.9846399026202135
+Current average cost = 0.998155391858974
+Current average cost = 1.0071150739280177
+Current average cost = 0.9891683708773631
+Current average cost = 1.0062255575608492
+Current average cost = 0.9997654423439295
+Current average cost = 0.9904949426009473
+Current average cost = 1.0010427780255782
+Current average cost = 0.9941167353400951
+Cost is = 0.9970703637055984 in iterations = 207
+Current average cost = 1.9846392025208346
+Current average cost = 0.998153157828418
+Current average cost = 1.0071129752270405
+Current average cost = 0.9891672081181323
+Current average cost = 1.0062246658672402
+Current average cost = 0.9997654644528609
+Current average cost = 0.9904944656676274
+Current average cost = 1.0010424411106722
+Current average cost = 0.994116690460702
+Cost is = 0.9970695951748214 in iterations = 208
+Current average cost = 1.9846385633753119
+Current average cost = 0.9981510045228783
+Current average cost = 1.007110953420208
+Current average cost = 0.9891660969156035
+Current average cost = 1.0062238185641912
+Current average cost = 0.9997655063832165
+Current average cost = 0.9904940218927955
+Current average cost = 1.0010421334834894
+Current average cost = 0.9941166670276409
+Cost is = 0.9970688671705449 in iterations = 209
+Current average cost = 1.9846379813206003
+Current average cost = 0.9981489286762317
+Current average cost = 1.0071090053549006
+Current average cost = 0.9891650348100148
+Current average cost = 1.0062230133789032
+Current average cost = 0.9997655665252079
+Current average cost = 0.990493609310996
+Current average cost = 1.0010418532886165
+Current average cost = 0.9941166633965512
+Cost is = 0.9970681775533384 in iterations = 210
+Current average cost = 1.9846374527150048
+Current average cost = 0.9981469271681818
+Current average cost = 1.0071071280207096
+Current average cost = 0.9891640194645038
+Current average cost = 1.0062222481567331
+Current average cost = 0.9997656433691857
+Current average cost = 0.9904932260663545
+Current average cost = 1.0010415987769385
+Current average cost = 0.9941166780236628
+Cost is = 0.9970675242967784 in iterations = 211
+Current average cost = 1.9846369741260226
+Current average cost = 0.9981449970172696
+Current average cost = 1.0071053185425731
+Current average cost = 0.9891630486588063
+Current average cost = 1.0062215208550034
+Current average cost = 0.9997657354999412
+Current average cost = 0.9904928704066343
+Current average cost = 1.0010413682997992
+Current average cost = 0.9941167094601138
+Cost is = 0.9970669054814738 in iterations = 212
+Current average cost = 1.9846365423188383
+Current average cost = 0.998143135374233
+Current average cost = 1.0071035741742622
+Current average cost = 0.9891621202832759
+Current average cost = 1.0062208295371353
+Current average cost = 0.9997658415913241
+Current average cost = 0.9904925406776102
+Current average cost = 1.0010411603034768
+Current average cost = 0.9941167563465768
+Cost is = 0.9970663192894181 in iterations = 213
+Current average cost = 1.9846361542454396
+Current average cost = 0.9981413395157007
+Current average cost = 1.0071018922921884
+Current average cost = 0.9891612323332204
+Current average cost = 1.0062201723670907
+Current average cost = 0.9997659604011526
+Current average cost = 0.9904922353177421
+Current average cost = 1.001040973323959
+Current average cost = 0.9941168174081799
+Cost is = 0.9970657639986243 in iterations = 214
+Current average cost = 1.9846358070343215
+Current average cost = 0.9981396068382002
+Current average cost = 1.0071002703895258
+Current average cost = 0.9891603829035281
+Current average cost = 1.0062195476041071
+Current average cost = 0.9997660907664045
+Current average cost = 0.9904919528531385
+Current average cost = 1.0010408059819964
+Current average cost = 0.9941168914497063
+Cost is = 0.9970652379780571 in iterations = 215
+Current average cost = 1.9846354979807426
+Current average cost = 0.998137934852464
+Current average cost = 1.0070987060706271
+Current average cost = 0.9891595701835769
+Current average cost = 1.0062189535977095
+Current average cost = 0.999766231598672
+Current average cost = 0.9904916918927839
+Current average cost = 1.0010406569784267
+Current average cost = 0.9941169773510541
+Cost is = 0.997064739682827 in iterations = 216
+Current average cost = 1.9846352245375136
+Current average cost = 0.998136321178021
+Current average cost = 1.007097197045717
+Current average cost = 0.9891587924524051
+Current average cost = 1.0062183887829852
+Current average cost = 0.9997663818798651
+Current average cost = 0.9904914511240284
+Current average cost = 1.001040525089748
+Current average cost = 0.9941170740629479
+Cost is = 0.9970642676496383 in iterations = 217
+Current average cost = 1.984634984306274
+Current average cost = 0.9981347635380559
+Current average cost = 1.0070957411258534
+Current average cost = 0.989158048074135
+Current average cost = 1.0062178516761047
+Current average cost = 0.9997665406581527
+Current average cost = 0.9904912293083136
+Current average cost = 1.001040409163934
+Current average cost = 0.9941171806028825
+Cost is = 0.9970638204924759 in iterations = 218
+Current average cost = 1.9846347750292508
+Current average cost = 0.9981332597545238
+Current average cost = 1.0070943362181386
+Current average cost = 0.9891573354936348
+Current average cost = 1.0062173408700807
+Current average cost = 0.9997667070441283
+Current average cost = 0.990491025277132
+Current average cost = 1.0010403081164716
+Current average cost = 0.994117296051293
+Cost is = 0.9970633968985276 in iterations = 219
+Current average cost = 1.9846345945814552
+Current average cost = 0.9981318077435096
+Current average cost = 1.007092980321169
+Current average cost = 0.9891566532324007
+Current average cost = 1.0062168550307509
+Current average cost = 0.999766880207185
+Current average cost = 0.9904908379282009
+Current average cost = 1.0010402209266178
+Current average cost = 0.9941174195479308
+Cost is = 0.9970629956243119 in iterations = 220
+Current average cost = 1.9846344409633043
+Current average cost = 0.9981304055108116
+Current average cost = 1.0070916715207128
+Current average cost = 0.9891559998846591
+Current average cost = 1.006216392892967
+Current average cost = 0.9997670593720926
+Current average cost = 0.9904906662218436
+Current average cost = 1.0010401466338557
+Current average cost = 0.9941175502884436
+Cost is = 0.9970626154920177 in iterations = 221
+Current average cost = 1.9846343122936427
+Current average cost = 0.9981290511477503
+Current average cost = 1.0070904079855987
+Current average cost = 0.9891553741136662
+Current average cost = 1.0062159532569896
+Current average cost = 0.9997672438157632
+Current average cost = 0.9904905091775627
+Current average cost = 1.0010400843345422
+Current average cost = 0.9941176875211417
+Cost is = 0.9970622553860333 in iterations = 222
+Current average cost = 1.9846342068031433
+Current average cost = 0.9981277428271795
+Current average cost = 1.0070891879638137
+Current average cost = 0.9891547746482008
+Current average cost = 1.0062155349850705
+Current average cost = 0.9997674328641967
+Current average cost = 0.9904903658708001
+Current average cost = 1.0010400331787397
+Current average cost = 0.9941178305439415
+Cost is = 0.9970619142496607 in iterations = 223
+Current average cost = 1.9846341228280622
+Current average cost = 0.9981264787996951
+Current average cost = 1.0070880097787902
+Current average cost = 0.9891542002792395
+Current average cost = 1.0062151369982115
+Current average cost = 0.9997676258895938
+Current average cost = 0.9904902354298708
+Current average cost = 1.0010399923672186
+Current average cost = 0.9941179787014807
+Cost is = 0.9970615910820068 in iterations = 224
+Current average cost = 1.9846340588043379
+Current average cost = 0.9981252573900304
+Current average cost = 1.0070868718258787
+Current average cost = 0.9891536498568019
+Current average cost = 1.0062147582731007
+Current average cost = 0.9997678223076327
+Current average cost = 0.9904901170330589
+Current average cost = 1.0010399611486211
+Current average cost = 0.9941181313823902
+Cost is = 0.9970612849350277 in iterations = 225
+Current average cost = 1.9846340132620075
+Current average cost = 0.9981240769936297
+Current average cost = 1.0070857725689928
+Current average cost = 0.9891531222869613
+Current average cost = 1.0062143978392013
+Current average cost = 0.9997680215748946
+Current average cost = 0.990490009905875
+Current average cost = 1.0010399388167823
+Current average cost = 0.9941182880167192
+Cost is = 0.997060994910745 in iterations = 226
+Current average cost = 1.9846339848199233
+Current average cost = 0.9981229360733872
+Current average cost = 1.0070847105374212
+Current average cost = 0.9891526165290072
+Current average cost = 1.0062140547760001
+Current average cost = 0.9997682231864337
+Current average cost = 0.9904899133184564
+Current average cost = 1.0010399247081914
+Current average cost = 0.9941184480735021
+Cost is = 0.9970607201585944 in iterations = 227
+Current average cost = 1.9846339721807689
+Current average cost = 0.9981218331565479
+Current average cost = 1.0070836843227964
+Current average cost = 0.9891521315927576
+Current average cost = 1.0062137282103962
+Current average cost = 0.9997684266734824
+Current average cost = 0.9904898265831104
+Current average cost = 1.0010399181995986
+Current average cost = 0.9941186110584607
+Cost is = 0.997060459872926 in iterations = 228
+Current average cost = 1.9846339741263286
+Current average cost = 0.9981207668317584
+Current average cost = 1.0070826925762109
+Current average cost = 0.989151666536008
+Current average cost = 1.0062134173142294
+Current average cost = 0.9997686316012848
+Current average cost = 0.9904897490519892
+Current average cost = 1.0010399187057455
+Current average cost = 0.9941187765118338
+Cost is = 0.997060213290628 in iterations = 229
+Current average cost = 1.9846339895130343
+Current average cost = 0.9981197357462624
+Current average cost = 1.0070817340054772
+Current average cost = 0.989151220462111
+Current average cost = 1.0062131213019363
+Current average cost = 0.9997688375670529
+Current average cost = 0.9904896801148905
+Current average cost = 1.0010399256772229
+Current average cost = 0.9941189440063288
+Cost is = 0.997059979688881 in iterations = 230
+Current average cost = 1.9846340172677372
+Current average cost = 0.9981187386032324
+Current average cost = 1.0070808073725186
+Current average cost = 0.9891507925176837
+Current average cost = 1.0062128394283307
+Current average cost = 0.9997690441980345
+Current average cost = 0.990489619197176
+Current average cost = 1.0010399385984436
+Current average cost = 0.9941191131451866
+Cost is = 0.9970597583830278 in iterations = 231
+Current average cost = 1.9846340563837241
+Current average cost = 0.9981177741592294
+Current average cost = 1.0070799114908902
+Current average cost = 0.989150381890431
+Current average cost = 1.006212570986501
+Current average cost = 0.9997692511496933
+Current average cost = 0.9904895657578038
+Current average cost = 1.0010399569857285
+Current average cost = 0.9941192835603546
+Cost is = 0.9970595487245639 in iterations = 232
+Current average cost = 1.9846341059169426
+Current average cost = 0.9981168412217883
+Current average cost = 1.0070790452234202
+Current average cost = 0.9891499878070812
+Current average cost = 1.0062123153058165
+Current average cost = 0.9997694581039879
+Current average cost = 0.9904895192874662
+Current average cost = 1.0010399803854921
+Current average cost = 0.994119454910763
+Cost is = 0.9970593500992189 in iterations = 233
+Current average cost = 1.98463416498244
+Current average cost = 0.9981159386471189
+Current average cost = 1.007078207479965
+Current average cost = 0.9891496095314294
+Current average cost = 1.0062120717500371
+Current average cost = 0.9997696647677504
+Current average cost = 0.990489479306828
+Current average cost = 1.0010400083725348
+Current average cost = 0.9941196268806956
+Cost is = 0.9970591619251526 in iterations = 234
+Current average cost = 1.984634232750988
+Current average cost = 0.998115065337916
+Current average cost = 1.007077397215273
+Current average cost = 0.9891492463624785
+Current average cost = 1.0062118397155282
+Current average cost = 0.9997698708711569
+Current average cost = 0.9904894453648609
+Current average cost = 1.0010400405484217
+Current average cost = 0.9941197991782552
+Cost is = 0.9970589836512432 in iterations = 235
+Current average cost = 1.9846343084459022
+Current average cost = 0.998114220241279
+Current average cost = 1.0070766134269546
+Current average cost = 0.9891488976326792
+Current average cost = 1.0062116186295598
+Current average cost = 0.9997700761662811
+Current average cost = 0.990489417037268
+Current average cost = 1.0010400765399532
+Current average cost = 0.9941199715339135
+Cost is = 0.997058814755462 in iterations = 236
+Current average cost = 1.9846343913400297
+Current average cost = 0.9981134023467277
+Current average cost = 1.0070758551535466
+Current average cost = 0.989148562706258
+Current average cost = 1.006211407948703
+Current average cost = 0.999770280425734
+Current average cost = 0.990489393924993
+Current average cost = 1.001040115997721
+Current average cost = 0.9941201436991415
+Cost is = 0.9970586547433391 in iterations = 237
+Current average cost = 1.9846344807529046
+Current average cost = 0.9981126106843142
+Current average cost = 1.0070751214726743
+Current average cost = 0.9891482409776315
+Current average cost = 1.0062112071573073
+Current average cost = 0.9997704834413795
+Current average cost = 0.9904893756528115
+Current average cost = 1.00104015859474
+Current average cost = 0.9941203154451204
+Cost is = 0.9970585031465048 in iterations = 238
+Current average cost = 1.9846345760480593
+Current average cost = 0.9981118443228265
+Current average cost = 1.0070744114992969
+Current average cost = 0.9891479318699027
+Current average cost = 1.0062110157660569
+Current average cost = 0.9997706850231222
+Current average cost = 0.9904893618679967
+Current average cost = 1.0010402040251587
+Current average cost = 0.9941204865615226
+Cost is = 0.9970583595213132 in iterations = 239
+Current average cost = 1.984634676630483
+Current average cost = 0.9981111023680761
+Current average cost = 1.0070737243840424
+Current average cost = 0.9891476348334332
+Current average cost = 1.0062108333106017
+Current average cost = 0.9997708849977656
+Current average cost = 0.9904893522390606
+Current average cost = 1.0010402520030373
+Current average cost = 0.9941206568553639
+Cost is = 0.9970582234475381 in iterations = 240
+Current average cost = 1.9846347819442225
+Current average cost = 0.9981103839612686
+Current average cost = 1.0070730593116188
+Current average cost = 0.9891473493444897
+Current average cost = 1.006210659350266
+Current average cost = 0.999771083207936
+Current average cost = 0.9904893464545612
+Current average cost = 1.0010403022611973
+Current average cost = 0.9941208261499194
+Cost is = 0.9970580945271292 in iterations = 241
+Current average cost = 1.9846348914701146
+Current average cost = 0.99810968827745
+Current average cost = 1.007072415499302
+Current average cost = 0.9891470749039588
+Current average cost = 1.0062104934668175
+Current average cost = 0.9997712795110673
+Current average cost = 0.9904893442219749
+Current average cost = 1.0010403545501305
+Current average cost = 0.9941209942837024
+Cost is = 0.9970579723830503 in iterations = 242
+Current average cost = 1.9846350047236405
+Current average cost = 0.998109014524028
+Current average cost = 1.0070717921954986
+Current average cost = 0.9891468110361277
+Current average cost = 1.0062103352633038
+Current average cost = 0.9997714737784438
+Current average cost = 0.9904893452666317
+Current average cost = 1.00104040863697
+Current average cost = 0.9941211611095013
+Cost is = 0.9970578566581608 in iterations = 243
+Current average cost = 1.9846351212529054
+Current average cost = 0.9981083619393625
+Current average cost = 1.007071188678372
+Current average cost = 0.9891465572875271
+Current average cost = 1.0062101843629512
+Current average cost = 0.9997716658943009
+Current average cost = 0.9904893493307068
+Current average cost = 1.0010404643045194
+Current average cost = 0.99412132649347
+Cost is = 0.9970577470141703 in iterations = 244
+Current average cost = 1.9846352406367238
+Current average cost = 0.9981077297914227
+Current average cost = 1.0070706042545383
+Current average cost = 0.9891463132258338
+Current average cost = 1.0062100404081185
+Current average cost = 0.9997718557549733
+Current average cost = 0.9904893561722681
+Current average cost = 1.0010405213503328
+Current average cost = 0.9941214903142731
+Cost is = 0.9970576431306416 in iterations = 245
+Current average cost = 1.9846353624828144
+Current average cost = 0.998107117376507
+Current average cost = 1.0070700382578224
+Current average cost = 0.989146078438828
+Current average cost = 1.0062099030593081
+Current average cost = 0.9997720432680983
+Current average cost = 0.990489365564376
+Current average cost = 1.0010405795858504
+Current average cost = 0.9941216524622799
+Cost is = 0.9970575447040481 in iterations = 246
+Current average cost = 1.9846354864260956
+Current average cost = 0.9981065240180239
+Current average cost = 1.0070694900480714
+Current average cost = 0.9891458525334047
+Current average cost = 1.0062097719942253
+Current average cost = 0.99977222835186
+Current average cost = 0.9904893772942314
+Current average cost = 1.0010406388355748
+Current average cost = 0.9941218128388017
+Cost is = 0.9970574514468784 in iterations = 247
+Current average cost = 1.984635612127071
+Current average cost = 0.9981059490653295
+Current average cost = 1.0070689590100268
+Current average cost = 0.9891456351346349
+Current average cost = 1.0062096469068915
+Current average cost = 0.9997724109342814
+Current average cost = 0.9904893911623714
+Current average cost = 1.0010406989363028
+Current average cost = 0.9941219713553776
+Cost is = 0.9970573630867946 in iterations = 248
+Current average cost = 1.9846357392703156
+Current average cost = 0.9981053918926168
+Current average cost = 1.0070684445522475
+Current average cost = 0.989145425884875
+Current average cost = 1.0062095275067982
+Current average cost = 0.9997725909525563
+Current average cost = 0.9904894069819076
+Current average cost = 1.0010407597363908
+Current average cost = 0.9941221279330985
+Cost is = 0.9970572793658277 in iterations = 249
+Current average cost = 1.9846358675630316
+Current average cost = 0.9981048518978618
+Current average cost = 1.0070679461060839
+Current average cost = 0.9891452244429197
+Current average cost = 1.0062094135181114
+Current average cost = 0.9997727683524209
+Current average cost = 0.9904894245778075
+Current average cost = 1.0010408210950674
+Current average cost = 0.9941222825019734
+Cost is = 0.9970572000396195 in iterations = 250
+Current average cost = 1.9846359967336984
+Current average cost = 0.9981043285018127
+Current average cost = 1.0070674631247
+Current average cost = 0.9891450304832018
+Current average cost = 1.006209304678911
+Current average cost = 0.999772943087563
+Current average cost = 0.9904894437862165
+Current average cost = 1.0010408828817807
+Current average cost = 0.9941224350003279
+Cost is = 0.997057124876706 in iterations = 251
+Current average cost = 1.9846361265307912
+Current average cost = 0.9981038211470313
+Current average cost = 1.0070669950821434
+Current average cost = 0.9891448436950265
+Current average cost = 1.006209200740475
+Current average cost = 0.9997731151190641
+Current average cost = 0.9904894644538121
+Current average cost = 1.0010409449755862
+Current average cost = 0.9941225853742439
+Cost is = 0.9970570536578335 in iterations = 252
+Current average cost = 1.9846362567215714
+Current average cost = 0.998103329296973
+Current average cost = 1.0070665414724522
+Current average cost = 0.9891446637818507
+Current average cost = 1.0062091014666001
+Current average cost = 0.9997732844148782
+Current average cost = 0.9904894864372004
+Current average cost = 1.0010410072645635
+Current average cost = 0.9941227335770282
+Cost is = 0.997056986175315 in iterations = 253
+Current average cost = 1.9846363870909491
+Current average cost = 0.9981028524351145
+Current average cost = 1.0070661018088114
+Current average cost = 0.989144490460594
+Current average cost = 1.0062090066329543
+Current average cost = 0.9997734509493386
+Current average cost = 0.9904895096023406
+Current average cost = 1.001041069645271
+Current average cost = 0.9941228795687131
+Cost is = 0.9970569222324207 in iterations = 254
+Current average cost = 1.9846365174404053
+Current average cost = 0.998102390064117
+Current average cost = 1.007065675622742
+Current average cost = 0.989144323460988
+Current average cost = 1.006208916026469
+Current average cost = 0.9997736147026932
+Current average cost = 0.9904895338240036
+Current average cost = 1.0010411320222288
+Current average cost = 0.9941230233155867
+Cost is = 0.9970568616427973 in iterations = 255
+Current average cost = 1.9846366475869774
+Current average cost = 0.9981019417050317
+Current average cost = 1.0070652624633316
+Current average cost = 0.9891441625249552
+Current average cost = 1.006208829444756
+Current average cost = 0.9997737756606744
+Current average cost = 0.9904895589852611
+Current average cost = 1.0010411943074295
+Current average cost = 0.9941231647897524
+Cost is = 0.9970568042299228 in iterations = 256
+Current average cost = 1.9846367773623015
+Current average cost = 0.9981015068965368
+Current average cost = 1.007064861896497
+Current average cost = 0.9891440074060215
+Current average cost = 1.0062087466955618
+Current average cost = 0.9997739338140867
+Current average cost = 0.9904895849769995
+Current average cost = 1.0010412564198812
+Current average cost = 0.9941233039687125
+Cost is = 0.9970567498265833 in iterations = 257
+Current average cost = 1.9846369066117089
+Current average cost = 0.9981010851942138
+Current average cost = 1.0070644735042837
+Current average cost = 0.9891438578687579
+Current average cost = 1.0062086675962454
+Current average cost = 0.9997740891584229
+Current average cost = 0.9904896116974653
+Current average cost = 1.0010413182851703
+Current average cost = 0.9941234408349787
+Cost is = 0.9970566982743869 in iterations = 258
+Current average cost = 1.9846370351933729
+Current average cost = 0.9981006761698538
+Current average cost = 1.0070640968841948
+Current average cost = 0.9891437136882486
+Current average cost = 1.006208591973285
+Current average cost = 0.9997742416935065
+Current average cost = 0.9904896390518324
+Current average cost = 1.0010413798350548
+Current average cost = 0.9941235753757036
+Cost is = 0.997056649423293 in iterations = 259
+Current average cost = 1.984637162977506
+Current average cost = 0.9981002794107952
+Current average cost = 1.007063731648553
+Current average cost = 0.989143574649588
+Current average cost = 1.006208519661811
+Current average cost = 0.9997743914231508
+Current average cost = 0.9904896669517946
+Current average cost = 1.0010414410070756
+Current average cost = 0.9941237075823375
+Cost is = 0.9970566031311753 in iterations = 260
+Current average cost = 1.9846372898456017
+Current average cost = 0.9980998945192926
+Current average cost = 1.0070633774238886
+Current average cost = 0.9891434405474019
+Current average cost = 1.0062084505051623
+Current average cost = 0.9997745383548416
+Current average cost = 0.9904896953151805
+Current average cost = 1.001041501744196
+Current average cost = 0.9941238374503033
+Cost is = 0.9970565592633993 in iterations = 261
+Current average cost = 1.9846374156897213
+Current average cost = 0.9980995211119122
+Current average cost = 1.0070630338503588
+Current average cost = 0.9891433111853927
+Current average cost = 1.0062083843544645
+Current average cost = 0.9997746824994413
+Current average cost = 0.9904897240655902
+Current average cost = 1.0010415619944548
+Current average cost = 0.9941239649786923
+Cost is = 0.9970565176924329 in iterations = 262
+Current average cost = 1.9846375404118146
+Current average cost = 0.9980991588189564
+Current average cost = 1.007062700581189
+Current average cost = 0.9891431863759064
+Current average cost = 1.0062083210682355
+Current average cost = 0.9997748238709068
+Current average cost = 0.9904897531320527
+Current average cost = 1.0010416217106455
+Current average cost = 0.9941240901699786
+Cost is = 0.997056478297466 in iterations = 263
+Current average cost = 1.984637663923094
+Current average cost = 0.9980988072839114
+Current average cost = 1.0070623772821434
+Current average cost = 0.9891430659395232
+Current average cost = 1.0062082605120026
+Current average cost = 0.999774962486029
+Current average cost = 0.9904897824486998
+Current average cost = 1.0010416808500087
+Current average cost = 0.9941242130297517
+Cost is = 0.9970564409640602 in iterations = 264
+Current average cost = 1.9846377861434275
+Current average cost = 0.9980984661629213
+Current average cost = 1.0070620636310166
+Current average cost = 0.9891429497046669
+Current average cost = 1.0062082025579484
+Current average cost = 0.9997750983641882
+Current average cost = 0.9904898119544617
+Current average cost = 1.0010417393739472
+Current average cost = 0.9941243335664639
+Cost is = 0.9970564055838079 in iterations = 265
+Current average cost = 1.9846379070007796
+Current average cost = 0.9980981351242846
+Current average cost = 1.0070617593171476
+Current average cost = 0.9891428375072342
+Current average cost = 1.0062081470845694
+Current average cost = 0.9997752315271219
+Current average cost = 0.9904898415927785
+Current average cost = 1.001041797247755
+Current average cost = 0.9941244517911958
+Cost is = 0.9970563720540174 in iterations = 266
+Current average cost = 1.9846380264306795
+Current average cost = 0.9980978138479729
+Current average cost = 1.0070614640409588
+Current average cost = 0.9891427291902438
+Current average cost = 1.0062080939763545
+Current average cost = 0.9997753619987121
+Current average cost = 0.9904898713113257
+Current average cost = 1.0010418544403588
+Current average cost = 0.9941245677174324
+Cost is = 0.9970563402774096 in iterations = 267
+Current average cost = 1.9846381443757182
+Current average cost = 0.9980975020251714
+Current average cost = 1.0070611775135117
+Current average cost = 0.9891426246034987
+Current average cost = 1.00620804312348
+Current average cost = 0.9997754898047816
+Current average cost = 0.9904899010617587
+Current average cost = 1.0010419109240816
+Current average cost = 0.9941246813608586
+Cost is = 0.9970563101618337 in iterations = 268
+Current average cost = 1.984638260785082
+Current average cost = 0.9980971993578382
+Current average cost = 1.0070608994560835
+Current average cost = 0.9891425236032706
+Current average cost = 1.0062079944215192
+Current average cost = 0.9997756149729069
+Current average cost = 0.9904899307994695
+Current average cost = 1.0010419666744148
+Current average cost = 0.9941247927391643
+Cost is = 0.9970562816199945 in iterations = 269
+Current average cost = 1.984638375614102
+Current average cost = 0.998096905558284
+Current average cost = 1.007060629599763
+Current average cost = 0.9891424260519969
+Current average cost = 1.00620794777117
+Current average cost = 0.9997757375322422
+Current average cost = 0.9904899604833561
+Current average cost = 1.001042021669805
+Current average cost = 0.9941249018718616
+Cost is = 0.9970562545691972 in iterations = 270
+Current average cost = 1.9846384888238435
+Current average cost = 0.9980966203487697
+Current average cost = 1.0070603676850651
+Current average cost = 0.9891423318179922
+Current average cost = 1.0062079030779925
+Current average cost = 0.999775857513354
+Current average cost = 0.9904899900756092
+Current average cost = 1.0010420758914527
+Current average cost = 0.9941250087801153
+Cost is = 0.9970562289311065 in iterations = 271
+Current average cost = 1.9846386003807086
+Current average cost = 0.9980963434611205
+Current average cost = 1.0070601134615575
+Current average cost = 0.9891422407751763
+Current average cost = 1.006207860252164
+Current average cost = 0.9997759749480674
+Current average cost = 0.990490019541506
+Current average cost = 1.0010421293231246
+Current average cost = 0.9941251134865837
+Cost is = 0.9970562046315126 in iterations = 272
+Current average cost = 1.9846387102560672
+Current average cost = 0.9980960746363584
+Current average cost = 1.0070598666875115
+Current average cost = 0.9891421528028129
+Current average cost = 1.0062078192082438
+Current average cost = 0.9997760898693224
+Current average cost = 0.9904900488492185
+Current average cost = 1.0010421819509763
+Current average cost = 0.9941252160152692
+Cost is = 0.9970561816001163 in iterations = 273
+Current average cost = 1.9846388184259083
+Current average cost = 0.9980958136243485
+Current average cost = 1.0070596271295598
+Current average cost = 0.9891420677852641
+Current average cost = 1.0062077798649525
+Current average cost = 0.9997762023110411
+Current average cost = 0.9904900779696323
+Current average cost = 1.0010422337633824
+Current average cost = 0.9941253163913804
+Cost is = 0.9970561597703226 in iterations = 274
+Current average cost = 1.9846389248705134
+Current average cost = 0.9980955601834622
+Current average cost = 1.0070593945623734
+Current average cost = 0.9891419856117537
+Current average cost = 1.006207742144961
+Current average cost = 0.9997763123080023
+Current average cost = 0.9904901068761756
+Current average cost = 1.001042284750783
+Current average cost = 0.9941254146412002
+Cost is = 0.9970561390790434 in iterations = 275
+Current average cost = 1.98463902957415
+Current average cost = 0.9980953140802541
+Current average cost = 1.0070591687683539
+Current average cost = 0.9891419061761445
+Current average cost = 1.0062077059746894
+Current average cost = 0.9997764198957244
+Current average cost = 0.9904901355446574
+Current average cost = 1.0010423349055326
+Current average cost = 0.9941255107919664
+Cost is = 0.9970561194665153 in iterations = 276
+Current average cost = 1.9846391325247794
+Current average cost = 0.9980950750891504
+Current average cost = 1.0070589495373352
+Current average cost = 0.9891418293767259
+Current average cost = 1.0062076712841221
+Current average cost = 0.9997765251103587
+Current average cost = 0.9904901639531163
+Current average cost = 1.0010423842217628
+Current average cost = 0.9941256048717573
+Cost is = 0.9970561008761206 in iterations = 277
+Current average cost = 1.9846392337137864
+Current average cost = 0.9980948429921543
+Current average cost = 1.007058736666299
+Current average cost = 0.9891417551160112
+Current average cost = 1.0062076380066234
+Current average cost = 0.9997766279885875
+Current average cost = 0.9904901920816769
+Current average cost = 1.0010424326952516
+Current average cost = 0.9941256969093868
+Cost is = 0.9970560832542253 in iterations = 278
+Current average cost = 1.984639333135723
+Current average cost = 0.9980946175785628
+Current average cost = 1.0070585299591053
+Current average cost = 0.9891416833005454
+Current average cost = 1.0062076060787704
+Current average cost = 0.9997767285675323
+Current average cost = 0.9904902199124143
+Current average cost = 1.0010424803232998
+Current average cost = 0.9941257869343053
+Cost is = 0.9970560665500181 in iterations = 279
+Current average cost = 1.9846394307880697
+Current average cost = 0.9980943986446913
+Current average cost = 1.0070583292262292
+Current average cost = 0.989141613840722
+Current average cost = 1.0062075754401905
+Current average cost = 0.9997768268846645
+Current average cost = 0.9904902474292276
+Current average cost = 1.0010425271046157
+Current average cost = 0.9941258749765092
+Cost is = 0.9970560507153647 in iterations = 280
+Current average cost = 1.9846395266710082
+Current average cost = 0.9980941859936161
+Current average cost = 1.0070581342845144
+Current average cost = 0.9891415466506087
+Current average cost = 1.0062075460334081
+Current average cost = 0.9997769229777266
+Current average cost = 0.9904902746177193
+Current average cost = 1.001042573039208
+Current average cost = 0.9941259610664555
+Cost is = 0.9970560357046613 in iterations = 281
+Current average cost = 1.9846396207872115
+Current average cost = 0.9980939794349226
+Current average cost = 1.0070579449569332
+Current average cost = 0.9891414816477825
+Current average cost = 1.0062075178037
+Current average cost = 0.9997770168846577
+Current average cost = 0.9904903014650834
+Current average cost = 1.0010426181282839
+Current average cost = 0.9941260452349818
+Cost is = 0.9970560214747101 in iterations = 282
+Current average cost = 1.984639713141645
+Current average cost = 0.9980937787844659
+Current average cost = 1.0070577610723572
+Current average cost = 0.9891414187531709
+Current average cost = 1.0062074906989567
+Current average cost = 0.9997771086435236
+Current average cost = 0.9904903279599978
+Current average cost = 1.0010426623741508
+Current average cost = 0.9941261275132339
+Cost is = 0.9970560079845832 in iterations = 283
+Current average cost = 1.9846398037413775
+Current average cost = 0.9980935838641422
+Current average cost = 1.0070575824653387
+Current average cost = 0.9891413578909019
+Current average cost = 1.006207464669553
+Current average cost = 0.9997771982924538
+Current average cost = 0.9904903540925256
+Current average cost = 1.001042705780132
+Current average cost = 0.9941262079325972
+Cost is = 0.997055995195508 in iterations = 284
+Current average cost = 1.9846398925954098
+Current average cost = 0.9980933945016661
+Current average cost = 1.0070574089759006
+Current average cost = 0.989141298988161
+Current average cost = 1.0062074396682223
+Current average cost = 0.9997772858695816
+Current average cost = 0.9904903798540199
+Current average cost = 1.001042748350478
+Current average cost = 0.9941262865246336
+Cost is = 0.9970559830707523 in iterations = 285
+Current average cost = 1.9846399797145107
+Current average cost = 0.9980932105303619
+Current average cost = 1.0070572404493356
+Current average cost = 0.9891412419750566
+Current average cost = 1.0062074156499405
+Current average cost = 0.9997773714129898
+Current average cost = 0.9904904052370348
+Current average cost = 1.00104279009029
+Current average cost = 0.9941263633210229
+Cost is = 0.9970559715755177 in iterations = 286
+Current average cost = 1.9846400651110625
+Current average cost = 0.9980930317889589
+Current average cost = 1.0070570767360105
+Current average cost = 0.9891411867844873
+Current average cost = 1.0062073925718131
+Current average cost = 0.9997774549606632
+Current average cost = 0.9904904302352439
+Current average cost = 1.0010428310054462
+Current average cost = 0.9941264383535083
+Cost is = 0.9970559606768346 in iterations = 287
+Current average cost = 1.9846401487989163
+Current average cost = 0.9980928581213988
+Current average cost = 1.0070569176911843
+Current average cost = 0.9891411333520223
+Current average cost = 1.0062073703929708
+Current average cost = 0.9997775365504384
+Current average cost = 0.9904904548433591
+Current average cost = 1.0010428711025325
+Current average cost = 0.9941265116538484
+Cost is = 0.9970559503434682 in iterations = 288
+Current average cost = 1.9846402307932594
+Current average cost = 0.9980926893766456
+Current average cost = 1.0070567631748288
+Current average cost = 0.9891410816157803
+Current average cost = 1.0062073490744667
+Current average cost = 0.9997776162199653
+Current average cost = 0.990490479057059
+Current average cost = 1.0010429103887777
+Current average cost = 0.9941265832537678
+Cost is = 0.9970559405458284 in iterations = 289
+0.9970559405458284 0.9970559503434682 -9.797639810571468e-09
+Cost is = 0.9970559405458284 in iterations = 289 in time = 24.780089855194092 sec
