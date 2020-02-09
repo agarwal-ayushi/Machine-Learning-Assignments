@@ -56,7 +56,7 @@ X[0:101,1] /= var
 
 #parameter initialization
 theta = np.zeros((2,1)) #initialize to zero (Can be random as well)
-alpha = 0.01 # Learning Rate
+alpha = 0.1 # Learning Rate
 print("Learning Rate=", alpha)
 
 
@@ -160,8 +160,12 @@ cost_plot = cost_error.reshape(theta0.shape)
 
 #Plot scatter for actual theta's
 
-theta_all0 = theta_all[0][0::5]
-theta_all1 = theta_all[1][0::5]
+#For smaller LR
+#theta_all0 = theta_all[0][0::5]
+#theta_all1 = theta_all[1][0::5]
+
+theta_all0 = theta_all[0][0::]
+theta_all1 = theta_all[1][0::]
 
 theta_all0, theta_all1 = np.meshgrid(theta_all0,theta_all1)
 cost_error = np.array([error(t0, t1, points) 
