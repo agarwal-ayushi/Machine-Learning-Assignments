@@ -100,41 +100,47 @@ for i in range(len(train_data)):
 
 def sklearn_svm(X_train, train_classes, shape, gamma='scale', c=1):
     start = time.time()
-    svc_classifier = svc(C=c, kernel=shape, gamma=gamma, decision_function_shape='ovo')
+    svc_classifier = svc(C=c, kernel=shape, gamma=gamma)
     svc_classifier.fit(X_train, train_classes)
     print("The time taken to train SVM model using SVM classifier SKLEARN and {} Kernel = {}sec"
           .format(shape, time.time()-start))    
     return svc_classifier
 
 
-# In[8]:
+# In[ ]:
 
 
 print("Running SVM Classifier from SKLEARN to classify with Gaussian Kernel")
 print("--------------------TRAINING--------------------------------------------")
 gamma=0.05
-train_acc_c=[];val_acc_c=[];test_acc_c =[]
+train_acc_c=[];val_acc_c=[];test_acc_c =[]; test_accuracy=[]
 index_best_model =[]
 
 
+
 for i in range(len(c)):
-    train_pred = []; val_pred =[]; svc_classifier=[]
+    train_pred = []; val_pred =[]; test_pred=[]; svc_classifier=[]
     print("\n\n\n@@@@@@@@@@-----------Training for C={}----------------@@@@@@@@@@@\n".format(c[i]))
     for j in range(len(train_data)):
         print("\n------------Training SVM on train/val data from combination number {} --------------\n".format(j))
         svc_classifier.append(sklearn_svm(train_data[j], train_class[j], 'rbf', gamma, c[i]))
         train_acc_svc = svc_classifier[j].score(train_data[j], train_class[j])
         val_acc_svc = svc_classifier[j].score(val_data[j], val_class[j])
+        test_acc_svc = svc_classifier[j].score(X_test, test_classes)
+        
         train_pred.append(train_acc_svc)
         val_pred.append(val_acc_svc)
+        test_pred.append(test_acc_svc)
     
+    test_acc_c.append(sum(test_pred)/len(test_pred))
     val_acc_c.append(sum(val_pred)/len(val_pred))
     train_acc_c.append(sum(train_pred)/len(train_pred))
     index_best_model.append(np.where(val_pred == np.max(val_pred))[0][0])
-    test_acc_c.append(svc_classifier[index_best_model][i].score(X_test, test_classes))
+    test_accuracy.append(svc_classifier[index_best_model[i]].score(X_test, test_classes))
 
-    print("Best classifier for C= {} found on the fold number {:2.3f} with val acc = {}%".format(c[i], index_best_model[i], val_acc_svc[index_best_model[i]]))
-    print("The average train accuracy for C= {} is = {:2.3f}".format(c[i], val_acc_c[i]))
+    print("Best classifier for C= {} found on the fold number {:2.3f} with val acc = {}% and test acc = {}%"
+          .format(c[i], index_best_model[i], val_pred[index_best_model[i]], test_pred[index_best_model[i]]))
+    print("The average train accuracy for C= {} is = {:2.3f}".format(c[i], train_acc_c[i]))
     print("The average validation accuracy for C= {} is = {:2.3f}".format(c[i], val_acc_c[i]))
     print("The test accuracy for C= {} is = {:2.3f}".format(c[i], test_acc_c[i]))    
 
@@ -144,7 +150,7 @@ for i in range(len(c)):
 
 #print("The number of support vectors are = {}".format())
 print("The Validation accuracy of the SVM model is= {:2.3f}%".format(val_acc_c*100))
-print("The test accuracy of the SVM model is = {:2.3f}%".format(test_acc_c*100))
+print("The test accuracy of the SVM model is = {:2.3f}%".format(test_accuracy*100))
 
 
 # def plot_conf_matrix(kernel_shape, test_classes, test_pred, test_pred_svc ):
