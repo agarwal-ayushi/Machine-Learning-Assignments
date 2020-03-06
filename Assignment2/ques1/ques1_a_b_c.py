@@ -270,43 +270,63 @@ print("The confusion Matrix is =\n", conf_matrix)
 print("\n-------------Plotting Confusion Matrix and ROC curve---------------------------\n")
 
 
-# In[16]:
+# In[1]:
 
 
 #Print confusion matrix (Code help from stackoverflow)
-import seaborn as sns
-import matplotlib.pyplot as plt     
-fig = plt.figure()
-ax= fig.add_subplot(111)
-sns.heatmap(conf_matrix, annot=True, ax = ax, fmt="d",linewidths=1, cmap="YlGnBu"); #annot=True to annotate cells
-ax.set_ylim([0,2]) # Workaround to display values in the center, to avoid downgrade to matplotlib3.1.1
-ax.set_xlabel('Actual labels');
-ax.set_ylabel('Predicted labels'); 
-ax.set_title('Confusion Matrix for NB using raw data'); 
-ax.xaxis.set_ticklabels(['y=0', 'y=1']); ax.yaxis.set_ticklabels(['y=0', 'y=1']);
-#plt.savefig('conf_matrix_Partc.png', dpi=1000, bbox_inches='tight')
+def plot_confusion_matrix(conf_matrix):
+    import seaborn as sns
+    import matplotlib.pyplot as plt     
+    fig = plt.figure()
+    ax= fig.add_subplot(111)
+    sns.heatmap(conf_matrix, annot=True, ax = ax, fmt="d",linewidths=1, cmap="YlGnBu"); #annot=True to annotate cells
+    ax.set_ylim([0,2]) # Workaround to display values in the center, to avoid downgrade to matplotlib3.1.1
+    ax.set_xlabel('Actual labels');
+    ax.set_ylabel('Predicted labels'); 
+    ax.set_title('Confusion Matrix for NB using raw data'); 
+    ax.xaxis.set_ticklabels(['y=0', 'y=1']); ax.yaxis.set_ticklabels(['y=0', 'y=1']);
+    #plt.savefig('conf_matrix_Partc.png', dpi=1000, bbox_inches='tight')
 
-plt.show()
-
-
-# In[53]:
+    plt.show()
 
 
-import numpy as np
+# In[2]:
 
-from sklearn import metrics
-from sklearn.metrics import auc
 
-fpr, tpr, thresholds = metrics.roc_curve(actual_class, prob4, drop_intermediate=True)
-import matplotlib.pyplot as plt
-plt.plot(tpr,fpr, c='g', label='NB Predictive Model')
-plt.xlabel("True Positive Rate")
-plt.ylabel("False Positive Rate")
-plt.title("ROC Curve for NB - RAW data")
-plt.plot(tpr, tpr, linestyle='--', c='b', label='Random Model')
-auc = auc(tpr, fpr)
-print("The AUC score for this classifier model is = ", auc)
-#plt.savefig('roc_raw-data.png', dpi=1000, bbox_inches='tight')
-plt.legend()
-plt.show()
+plot_confusion_matrix(conf_matrix)
+
+
+# In[3]:
+
+
+def plot_roc(prob4):
+    import numpy as np
+
+    from sklearn import metrics
+    from sklearn.metrics import auc
+
+    fpr, tpr, thresholds = metrics.roc_curve(actual_class, prob4, drop_intermediate=True)
+    import matplotlib.pyplot as plt
+    plt.plot(tpr,fpr, c='g', label='NB Predictive Model')
+    plt.xlabel("True Positive Rate")
+    plt.ylabel("False Positive Rate")
+    plt.title("ROC Curve for NB - RAW data")
+    plt.plot(tpr, tpr, linestyle='--', c='b', label='Random Model')
+    auc = auc(tpr, fpr)
+    print("The AUC score for this classifier model is = ", auc)
+    #plt.savefig('roc_raw-data.png', dpi=1000, bbox_inches='tight')
+    plt.legend()
+    plt.show()
+
+
+# In[4]:
+
+
+plot_roc(prob4)
+
+
+# In[ ]:
+
+
+
 
