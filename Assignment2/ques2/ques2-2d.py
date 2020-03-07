@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[6]:
 
 
 #Importing Data from the CSV file
-#get_ipython().run_line_magic('matplotlib', 'inline')
+get_ipython().run_line_magic('matplotlib', 'inline')
 import math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -60,7 +60,7 @@ temp = np.hstack((X_all, classes_xall))
 np.random.shuffle(temp)
 fold1, fold2, fold3, fold4, fold5 = np.split(temp, 5)
 fold = [fold1, fold2, fold3, fold4, fold5]
-c= [1e-5 , 1e-3 , 1, 5, 10]
+c= [1e-5 , 1e-3 , 0.1, 0.5, 1, 5, 10]
 
 
 # In[5]:
@@ -119,8 +119,6 @@ index_best_model =[]
 val_pred_fold = []
 test_pred_fold = []
 
-c= [1e-5, 1e-3]
-
 for i in range(len(c)):
     train_pred = []; val_pred =[]; test_pred=[]; svc_classifier=[]
     print("\n\n\n@@@@@@@@@@-----------Training for C={}----------------@@@@@@@@@@@\n".format(c[i]))
@@ -177,4 +175,58 @@ print(train_acc_c)
 
 print("\nBest Classifier Fold for different C\n")
 print(index_best_model)
+
+
+# In[61]:
+
+
+print("\n----------------------Plotting the average Accuracies of 5-fold CV Models\n for different values of C=[1e-5, 1e-3, 0.1, 0.5, 1, 5, 10]---------------\n")
+
+C=[1e-5, 1e-3, 0.1, 0.5, 1, 5, 10]
+x = range(35)
+val_acc_folds = [0.088, 0.0924, 0.0924, 0.093, 0.0908,                  0.088, 0.0924, 0.0924, 0.093, 0.0908,                  0.8158, 0.8144, 0.8154, 0.8114, 0.8278,                  0.8706, 0.8762, 0.8694, 0.857, 0.8732,                  0.8852, 0.8848, 0.8824, 0.8666, 0.8842,                  0.8904, 0.8866, 0.887, 0.8772, 0.888,                  0.8892, 0.886, 0.8868, 0.8764, 0.8866]
+val_acc_folds = [x*100 for x in val_acc_folds]
+
+test_acc_folds = [0.1, 0.1, 0.1, 0.1, 0.1,                  0.1, 0.1, 0.1, 0.1, 0.1,                  0.8152, 0.8146, 0.8166, 0.817, 0.8156,                  0.8612, 0.8632, 0.8612, 0.8604, 0.8636,                  0.876, 0.8754, 0.8756, 0.8758, 0.8766,                  0.8786, 0.8808, 0.884, 0.879, 0.8822,                  0.8768, 0.8796, 0.8838, 0.8786, 0.8798]
+test_acc_folds = [x*100 for x in test_acc_folds]
+
+fold_chosen=[1, 1, 4, 1, 0, 0, 0]
+avg_train_acc = [10.2, 10.2, 84.246, 93.37, 96.98, 99.974, 100.0]
+avg_val_acc = [9.4, 9.4, 81.69, 86.928, 88.064, 88.584, 88.5]
+avg_test_acc = [10, 10, 81.58, 86.192, 87.588, 88.092, 87.972]
+test_acc_best = [10, 10, 81.56, 86.32, 87.6, 87.86, 87.68]
+
+fig = plt.figure(1)
+ax = fig.add_subplot(111)
+ax.plot(np.log(C), avg_train_acc, marker='*', label='Avg. Train Acc')
+ax.plot(np.log(C), avg_val_acc, marker='o', c='g',label='Avg. Val Acc')
+ax.plot(np.log(C), avg_test_acc, marker='^', c='m', label='Avg. Test Acc')
+ax.plot(np.log(C), test_acc_best, marker='P', c='r', label='Best Test Acc')
+ax.axvline(np.log(5), c = 'k', linewidth=1.4, linestyle='--', label='Best C=5')
+ax.set_ylabel("Accuracy in %", fontsize=15)
+ax.set_xlabel("Value of Parameter C", fontsize=15)
+ax.set_title("Accuracy of SVM Model with different \n Hyperparameter C", fontsize=18)
+ax.legend()
+#plt.savefig('acc_para_c_part2d.png', dpi=1000, bbox_inches='tight')
+plt.show()
+
+fig = plt.figure(2)
+ax = fig.add_subplot(111)
+ax.plot(x, val_acc_folds, marker='*', c='r',label='Validation Acc in 5-Folds')
+ax.plot(x, test_acc_folds, marker='o', c='g',label='Test Acc in 5-folds')
+ax.set_ylabel("Accuracy in %", fontsize=15)
+ax.set_xlabel("5-folds per C", fontsize=15)
+ax.set_title("Accuracy of SVM Model with different \n Hyperparameter C in 5-folds", fontsize=18)
+ax.legend(loc=7)
+ax1 = ax.twiny()
+ax1.set_xlabel("Value of Parameter C", fontsize=15)
+ax1.plot(np.log(C), np.ones(7), c='w') # Create a dummy plot
+#plt.savefig('acc_para_c_folds_part2d.png', dpi=1000, bbox_inches='tight')
+plt.show()
+
+
+# In[ ]:
+
+
+
 
