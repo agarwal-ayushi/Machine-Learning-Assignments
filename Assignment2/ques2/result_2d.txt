@@ -64,6 +64,41 @@ Best classifier for C= 0.001 found on the fold number 1.000 with val acc = 0.095
 The average train accuracy for C= 0.001 is = 0.102
 The average validation accuracy for C= 0.001 is = 0.094
 The test accuracy for C= 0.001 is = 0.100
+
+
+@@@@@@@@@@-----------Training for C=0.1----------------@@@@@@@@@@@
+
+
+------------Training SVM on train/val data from combination number 0 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 235.718sec
+
+------------Training SVM on train/val data from combination number 1 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 348.911sec
+
+------------Training SVM on train/val data from combination number 2 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 349.872sec
+
+------------Training SVM on train/val data from combination number 3 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 348.047sec
+
+------------Training SVM on train/val data from combination number 4 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 346.075sec
+
+Best classifier for C= 0.1 found on the fold number 4 with val acc = 82.780% and test acc = 81.560%
+The average train accuracy for C= 0.1 is = 84.246%
+The average validation accuracy for C= 0.1 is = 81.696%
+The test accuracy on best classifier for C= 0.1 is = 81.580%
+
+
+
+
+
+
 @@@@@@@@@@-----------Training for C=1----------------@@@@@@@@@@@
 
 

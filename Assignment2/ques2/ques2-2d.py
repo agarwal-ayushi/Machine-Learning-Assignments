@@ -5,7 +5,7 @@
 
 
 #Importing Data from the CSV file
-get_ipython().run_line_magic('matplotlib', 'inline')
+#get_ipython().run_line_magic('matplotlib', 'inline')
 import math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,14 +95,14 @@ for i in range(len(train_data)):
     val_data[i]=val_data[i][:,:-1]
 
 
-# In[7]:
+# In[8]:
 
 
 def sklearn_svm(X_train, train_classes, shape, gamma='scale', c=1):
     start = time.time()
     svc_classifier = svc(C=c, kernel=shape, gamma=gamma)
     svc_classifier.fit(X_train, train_classes)
-    print("The time taken to train SVM model using SVM classifier SKLEARN and {} Kernel = {}sec"
+    print("The time taken to train SVM model using SVM classifier SKLEARN and {} Kernel = {:2.3f}sec"
           .format(shape, time.time()-start))    
     return svc_classifier
 
@@ -116,7 +116,10 @@ gamma=0.05
 train_acc_c=[];val_acc_c=[];test_acc_c =[]; test_accuracy=[]
 index_best_model =[]
 
+val_pred_fold = []
+test_pred_fold = []
 
+c= [0.1, 0.5 , 1, 5, 10]
 
 for i in range(len(c)):
     train_pred = []; val_pred =[]; test_pred=[]; svc_classifier=[]
@@ -131,6 +134,8 @@ for i in range(len(c)):
         train_pred.append(train_acc_svc)
         val_pred.append(val_acc_svc)
         test_pred.append(test_acc_svc)
+        val_pred_fold.append(val_acc_svc)
+        test_pred_fold.append(test_acc_svc)
     
     test_acc_c.append(sum(test_pred)/len(test_pred))
     val_acc_c.append(sum(val_pred)/len(val_pred))
@@ -138,45 +143,38 @@ for i in range(len(c)):
     index_best_model.append(np.where(val_pred == np.max(val_pred))[0][0])
     test_accuracy.append(svc_classifier[index_best_model[i]].score(X_test, test_classes))
 
-    print("Best classifier for C= {} found on the fold number {:2.3f} with val acc = {}% and test acc = {}%"
-          .format(c[i], index_best_model[i], val_pred[index_best_model[i]], test_pred[index_best_model[i]]))
-    print("The average train accuracy for C= {} is = {:2.3f}".format(c[i], train_acc_c[i]))
-    print("The average validation accuracy for C= {} is = {:2.3f}".format(c[i], val_acc_c[i]))
-    print("The test accuracy for C= {} is = {:2.3f}".format(c[i], test_acc_c[i]))    
+    
+    print("\nBest classifier for C= {} found on the fold number {} with val acc = {:2.3f}% and test acc = {:2.3f}%"
+          .format(c[i], index_best_model[i], val_pred[index_best_model[i]]*100, test_pred[index_best_model[i]]*100))
+    print("The average train accuracy for C= {} is = {:2.3f}%".format(c[i], train_acc_c[i]*100))
+    print("The average validation accuracy for C= {} is = {:2.3f}%".format(c[i], val_acc_c[i]*100))
+    
+    print("The test accuracy on best classifier for C= {} is = {:2.3f}%".format(c[i], test_acc_c[i]*100))    
 
 
 # In[ ]:
 
 
-#print("The number of support vectors are = {}".format())
-print("The Validation accuracy of the SVM model is= {:2.3f}%".format(val_acc_c*100))
-print("The test accuracy of the SVM model is = {:2.3f}%".format(test_accuracy*100))
+print("---------------------Accumulated results---------------------------")
 
 
-# def plot_conf_matrix(kernel_shape, test_classes, test_pred, test_pred_svc ):
-#     print("\nPlotting Confusion Matrix for {} Kernel - CVXOPT vs. SVMC-library".format(kernel_shape))
-# 
-#     conf_matrix_cvxopt = confusion_matrix(test_classes, test_pred)
-#     conf_matrix_svmC = confusion_matrix(test_classes, test_pred_svc)
-#     fig = plt.figure()
-#     ax= fig.add_subplot(221)
-#     sns.heatmap(conf_matrix_cvxopt, annot=True, ax = ax, fmt="d",linewidths=1, cmap="YlGnBu"); #annot=True to annotate cells
-#     ax.set_ylim([0,2]) # Workaround to display values in the center, to avoid downgrade to matplotlib3.1.1
-#     ax.set_ylabel('Actual labels');
-#     ax.set_xlabel('Predicted labels'); 
-#     ax.set_title('Confusion Matrix with CVX '); 
-#     ax.xaxis.set_ticklabels(['y=0', 'y=1']); ax.yaxis.set_ticklabels(['y=0', 'y=1']);
-# 
-#     ax1 = fig.add_subplot(222)
-#     sns.heatmap(conf_matrix_svmC, annot=True, ax = ax1, fmt="d",linewidths=1, cmap="YlGnBu"); #annot=True to annotate cells
-#     ax1.set_ylim([0,2]) # Workaround to display values in the center, to avoid downgrade to matplotlib3.1.1
-#     ax1.set_ylabel('Actual labels');
-#     ax1.set_xlabel('Predicted labels'); 
-#     ax1.set_title('Confusion Matrix with SVM-C'); 
-#     ax1.xaxis.set_ticklabels(['y=0', 'y=1']); ax1.yaxis.set_ticklabels(['y=0', 'y=1']);
-# 
-#     fig.tight_layout(pad=3.0)
-# 
-#     plt.show()
+print("\nValidation Accuracy for all the folds\n")
+print(val_pred_fold)
+print("\nTest Accuracy for all the folds\n")
+print(test_pred_fold)
 
-# plot_conf_matrix('gaussian', test_classes, test_label_pred, test_pred_svc)
+print("\nAverage Validation Accuracy for different C\n")
+print(val_acc_c)
+
+print("\nAverage Test Accuracy for different C\n")
+print(test_acc_c)
+
+print("\n Test Accuracy on Best classifier for different C\n")
+print(test_accuracy)
+
+print("\nAverage Train Accuracy for different C\n")
+print(train_acc_c)
+
+print("\nBest Classifier Fold for different C\n")
+print(index_best_model)
+
