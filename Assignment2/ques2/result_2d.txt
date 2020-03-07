@@ -95,7 +95,33 @@ The average validation accuracy for C= 0.1 is = 81.696%
 The test accuracy on best classifier for C= 0.1 is = 81.580%
 
 
-
+@@@@@@@@@@-----------Training for C=0.5----------------@@@@@@@@@@@                                                                           [111/405]
+                                                                                   
+                                                                                                  
+------------Training SVM on train/val data from combination number 0 --------------       
+                                                                                   
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 255.166sec
+                                                                                          
+------------Training SVM on train/val data from combination number 1 --------------       
+                                                                                   
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 254.848sec       
+                                                                                                                                                      
+------------Training SVM on train/val data from combination number 2 --------------
+                                                                                          
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 183.582sec
+                                                                                          
+------------Training SVM on train/val data from combination number 3 --------------                                                                   
+                                                                                                 
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 179.902sec
+                                                                                   
+------------Training SVM on train/val data from combination number 4 --------------
+                                                                                          
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 180.650sec
+                                                                                   
+Best classifier for C= 0.5 found on the fold number 1 with val acc = 87.620% and test acc = 86.320%
+The average train accuracy for C= 0.5 is = 93.373%                                        
+The average validation accuracy for C= 0.5 is = 86.928%                                   
+The test accuracy on best classifier for C= 0.5 is = 86.192%     
 
 
 

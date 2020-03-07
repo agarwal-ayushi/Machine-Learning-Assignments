@@ -150,22 +150,17 @@ comb = combinations(label, 2)
 
 cvx_solver = []
 print(num_classifier)
-
+start = time.time()
 #Training all the classifiers per class pair
 for k in list(comb):   
     X_train, train_classes = input_read('fashion_mnist/train.csv', ',', k[0], k[1])
     cvx_solver.append(train_classifiers(X_train, train_classes, k[0], k[1]))
-
-
-# In[ ]:
-
+print("Time taken to train all the classifiers (10C2) with CVX OPT = {:2.3f}sec".format(time.time()-start))
 
 import pickle
 with open('fashion_MNIST_SVM.pickle','wb') as f:
     pickle.dump(cvx_solver, f)
-
-
-# In[11]:
+# In[ ]:
 
 
 cvx_solver = pickle.load(open("fashion_MNIST_SVM.pickle", "rb"))
@@ -178,9 +173,10 @@ X_val, val_classes = input_read('fashion_mnist/val.csv', ',')
 X_test, test_classes = input_read('fashion_mnist/test.csv', ',')
 
 
-# In[9]:
+# In[10]:
 
 
+label=range(10)
 classifiers = list(combinations(label, 2) )
 #train_label_score = np.zeros((len(X_train), len(label)))
 val_label_score = np.zeros((len(X_val), len(label)))
@@ -218,10 +214,10 @@ for i in range(len(classifiers)):
     test_label_score[class1,k[1]]+=test_pred[class1,0]
     test_label_score[class0,k[0]]+=test_pred[class0,0]
 
-print("The time taken to predict the scores is {}sec".format(time.time()-start))
+print("The time taken to predict the scores is {:2.3f}sec".format(time.time()-start))
 
 
-# In[14]:
+# In[11]:
 
 
 val_label_pred = [np.where(x == max(x))[0][0] for x in val_label_score[:,:]]
@@ -233,7 +229,7 @@ test_acc = calc_accuracy(test_classes, test_label_pred)
 
 # [supp_vec_ind]#Implementation using SVM Classifier
 
-# In[15]:
+# In[12]:
 
 
 print("\n-----------GAUSSIAN KERNEL(Multi-class)----------------")
@@ -245,13 +241,13 @@ print("The test accuracy of the model with 10C2 classifiers is = {:2.3f}%".forma
 
 # # Read whole input training set for SVM classifier
 
-# In[10]:
+# In[13]:
 
 
 X_train, train_classes = input_read('fashion_mnist/train.csv', ',')
 
 
-# In[11]:
+# In[14]:
 
 
 def sklearn_svm(X_train, train_classes, shape, gamma='scale'):
@@ -271,10 +267,10 @@ def sklearn_svm(X_train, train_classes, shape, gamma='scale'):
     return train_pred_svc, val_pred_svc, test_pred_svc, train_acc_svc, val_acc_svc, test_acc_svc;
 
 
-# In[12]:
+# In[15]:
 
 
-print("Running SVM Classifier from SKLEARN to classify with Gaussian Kernel")
+print("\n\nRunning SVM Classifier from SKLEARN to classify with Gaussian Kernel")
 print("--------------------TRAINING--------------------------------------------")
 train_pred_svc, val_pred_svc, test_pred_svc, train_acc_svc, val_acc_svc, test_acc_svc= sklearn_svm(X_train, train_classes, 'rbf', 0.05)
 
@@ -291,7 +287,7 @@ print("The Validation accuracy of the SVM model is= {:2.3f}%".format(val_acc))
 print("The test accuracy of the SVM model is = {:2.3f}%".format(test_acc))
 
 
-# In[13]:
+# In[21]:
 
 
 def plot_conf_matrix(kernel_shape, test_classes, test_pred, test_pred_svc ):
@@ -307,7 +303,7 @@ def plot_conf_matrix(kernel_shape, test_classes, test_pred, test_pred_svc ):
     ax.set_xlabel('Predicted labels'); 
     ax.set_title('Confusion Matrix with CVX '); 
     #ax.xaxis.set_ticklabels(['y=0', 'y=1']); ax.yaxis.set_ticklabels(['y=0', 'y=1']);
-    #fig.savefig('cm_cvxopt_multiclass.png', dpi=1000, bbox_inches='tight')
+    #fig.savefig('cm_cvxopt_test_multiclass.png', dpi=1000, bbox_inches='tight')
 
     fig1 = plt.figure(2)
     ax1 = fig1.add_subplot(111)
@@ -319,21 +315,21 @@ def plot_conf_matrix(kernel_shape, test_classes, test_pred, test_pred_svc ):
     #ax1.xaxis.set_ticklabels(['y=0', 'y=1']); ax1.yaxis.set_ticklabels(['y=0', 'y=1']);
 
     fig.tight_layout(pad=3.0)
-    #fig1.savefig('cm_svm_multiclass.png', dpi=1000, bbox_inches='tight')
+    #fig1.savefig('cm_svm_test_multiclass.png', dpi=1000, bbox_inches='tight')
     
     plt.show()
 
 
-# In[14]:
+# In[20]:
 
 
-#plot_conf_matrix('gaussian', val_classes, val_label_pred, val_label_pred_svc)
+plot_conf_matrix('gaussian', val_classes, val_label_pred, val_label_pred_svc)
 
 
-# In[38]:
+# In[22]:
 
 
-#plot_conf_matrix('gaussian', test_classes, test_label_pred, test_label_pred_svc)
+plot_conf_matrix('gaussian', test_classes, test_label_pred, test_label_pred_svc)
 
 
 # In[ ]:

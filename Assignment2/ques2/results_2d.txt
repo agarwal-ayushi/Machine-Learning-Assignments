@@ -1,0 +1,189 @@
+The combinations of train and val data for 5-fold cross validations are                                                                               
+Train Sets = (0, 1, 2, 3) Val Set = 4                                                                                                                 
+Train Sets = (0, 1, 2, 4) Val Set = 3                                                                                                                 
+Train Sets = (0, 1, 3, 4) Val Set = 2                                                                                                                 
+Train Sets = (0, 2, 3, 4) Val Set = 1                                                                                                                 
+Train Sets = (1, 2, 3, 4) Val Set = 0                                                                                                                 
+Running SVM Classifier from SKLEARN to classify with Gaussian Kernel                                                                                  
+--------------------TRAINING--------------------------------------------                                                                              
+                                                                                                                                                      
+                                                                                                                                                      
+                                                                                                                                                      
+@@@@@@@@@@-----------Training for C=0.1----------------@@@@@@@@@@@                                                                                    
+                                                                                                                                                      
+                                                                                                                                                      
+------------Training SVM on train/val data from combination number 0 --------------                                                                   
+                                                                                                                                                      
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 235.718sec                                                            
+                                                                                                                                                      
+------------Training SVM on train/val data from combination number 1 --------------                                                                   
+                                                                                                                                                      
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 348.911sec                                                            
+                                                                                                                                                      
+------------Training SVM on train/val data from combination number 2 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 349.872sec
+
+------------Training SVM on train/val data from combination number 3 --------------
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 348.047sec
+
+------------Training SVM on train/val data from combination number 4 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 346.075sec
+
+Best classifier for C= 0.1 found on the fold number 4 with val acc = 82.780% and test acc = 81.560%
+The average train accuracy for C= 0.1 is = 84.246%
+The average validation accuracy for C= 0.1 is = 81.696%
+The test accuracy on best classifier for C= 0.1 is = 81.580%
+
+
+
+@@@@@@@@@@-----------Training for C=0.5----------------@@@@@@@@@@@
+
+
+------------Training SVM on train/val data from combination number 0 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 255.166sec
+
+------------Training SVM on train/val data from combination number 1 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 254.848sec
+
+------------Training SVM on train/val data from combination number 2 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 183.582sec
+
+------------Training SVM on train/val data from combination number 3 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 179.902sec
+
+------------Training SVM on train/val data from combination number 4 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 180.650sec
+
+Best classifier for C= 0.5 found on the fold number 1 with val acc = 87.620% and test acc = 86.320%
+The average train accuracy for C= 0.5 is = 93.373%
+The average validation accuracy for C= 0.5 is = 86.928%                                                                                       [86/405]
+The test accuracy on best classifier for C= 0.5 is = 86.192%
+
+
+
+@@@@@@@@@@-----------Training for C=1----------------@@@@@@@@@@@
+
+
+------------Training SVM on train/val data from combination number 0 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 176.675sec
+
+------------Training SVM on train/val data from combination number 1 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 176.779sec
+
+------------Training SVM on train/val data from combination number 2 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 172.374sec
+
+------------Training SVM on train/val data from combination number 3 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 179.442sec
+
+------------Training SVM on train/val data from combination number 4 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 176.759sec
+
+Best classifier for C= 1 found on the fold number 0 with val acc = 88.520% and test acc = 87.600%
+The average train accuracy for C= 1 is = 96.980%
+The average validation accuracy for C= 1 is = 88.064%
+The test accuracy on best classifier for C= 1 is = 87.588%
+
+
+
+@@@@@@@@@@-----------Training for C=5----------------@@@@@@@@@@@
+
+
+------------Training SVM on train/val data from combination number 0 --------------
+                                                                                                                                              [47/405]
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 189.537sec
+
+------------Training SVM on train/val data from combination number 1 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 189.251sec
+
+------------Training SVM on train/val data from combination number 2 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 196.901sec
+
+------------Training SVM on train/val data from combination number 3 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 199.120sec
+
+------------Training SVM on train/val data from combination number 4 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 195.544sec
+
+Best classifier for C= 5 found on the fold number 0 with val acc = 89.040% and test acc = 87.860%
+The average train accuracy for C= 5 is = 99.974%
+The average validation accuracy for C= 5 is = 88.584%
+The test accuracy on best classifier for C= 5 is = 88.092%
+
+
+
+@@@@@@@@@@-----------Training for C=10----------------@@@@@@@@@@@
+
+
+------------Training SVM on train/val data from combination number 0 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 190.476sec
+
+------------Training SVM on train/val data from combination number 1 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 189.477sec
+
+------------Training SVM on train/val data from combination number 2 --------------
+
+                                                                                                                                               [9/405]
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 192.873sec
+
+------------Training SVM on train/val data from combination number 3 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 189.194sec
+
+------------Training SVM on train/val data from combination number 4 --------------
+
+The time taken to train SVM model using SVM classifier SKLEARN and rbf Kernel = 189.751sec
+
+Best classifier for C= 10 found on the fold number 0 with val acc = 88.920% and test acc = 87.680%
+The average train accuracy for C= 10 is = 100.000%
+The average validation accuracy for C= 10 is = 88.500%
+The test accuracy on best classifier for C= 10 is = 87.972%
+---------------------Accumulated results---------------------------
+
+Validation Accuracy for all the folds
+
+[0.8158, 0.8144, 0.8154, 0.8114, 0.8278, 0.8706, 0.8762, 0.8694, 0.857, 0.8732, 0.8852, 0.8848, 0.8824, 0.8666, 0.8842, 0.8904, 0.8866, 0.887, 0.8772,
+ 0.888, 0.8892, 0.886, 0.8868, 0.8764, 0.8866]
+
+Test Accuracy for all the folds
+
+[0.8152, 0.8146, 0.8166, 0.817, 0.8156, 0.8612, 0.8632, 0.8612, 0.8604, 0.8636, 0.876, 0.8754, 0.8756, 0.8758, 0.8766, 0.8786, 0.8808, 0.884, 0.879, 0
+.8822, 0.8768, 0.8796, 0.8838, 0.8786, 0.8798]
+
+Average Validation Accuracy for different C
+
+[0.8169599999999999, 0.86928, 0.88064, 0.88584, 0.885]
+
+Average Test Accuracy for different C
+
+[0.8158, 0.8619199999999999, 0.8758799999999999, 0.88092, 0.8797200000000001]
+
+ Test Accuracy on Best classifier for different C
+
+[0.8156, 0.8632, 0.876, 0.8786, 0.8768]
+Average Train Accuracy for different C
+
+[0.84246, 0.9337300000000001, 0.9698, 0.9997400000000001, 1.0]
+
+Best Classifier Fold for different C
+
+[4, 1, 0, 0, 0]
+
