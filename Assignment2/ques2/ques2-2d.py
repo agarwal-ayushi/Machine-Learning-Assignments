@@ -119,7 +119,7 @@ index_best_model =[]
 val_pred_fold = []
 test_pred_fold = []
 
-c= [0.1, 0.5 , 1, 5, 10]
+c= [1e-5, 1e-3]
 
 for i in range(len(c)):
     train_pred = []; val_pred =[]; test_pred=[]; svc_classifier=[]
