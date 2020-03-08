@@ -205,6 +205,7 @@ n_features=[]
 
 # In[17]:
 
+print("\n------------------Training MultiNomial NB with different values of MIN_DF-----------------------\n")
 
 for i in min_df:
     vec_4 = TfidfVectorizer(analyzer="word", stop_words='english',sublinear_tf=True, min_df=i)
@@ -303,9 +304,9 @@ for i in range(len(perc)):
     tfidf_test = vec.transform(tweets_test_pd)
     tfidf_test_new = sel_perc.transform(tfidf_test)
     test_acc_perc.append(nb.score(tfidf_test_new, test_classes))
-    n_features_perc.append(nb.n_features_)
+    n_features_perc.append(nb.feature_count_.shape[1])
     print("The time taken to train the model is = {:2.3f}".format(end-start))
-    print("The number of features in the trained model is = {}".format(nb.n_features_))
+    print("The number of features in the trained model is = {}".format(nb.feature_count_.shape[1]))
     print("The Test Accuracy obtained for this model = {:2.3f}%\n\n".format(test_acc_perc[i]*100))
 
 

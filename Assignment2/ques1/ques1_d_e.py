@@ -410,10 +410,10 @@ nw = [0 for i in range(max(dictionary.values())+1)]
 f = [i for i in range(max(dictionary.values())+1)] 
 for key in dictionary:
     nw[dictionary[key]]+=1
-plt.plot(f,nw)
-plt.axis([40, 80, 0, 500])
-plt.xlabel("Frequency")
-plt.ylabel("No of words")
+#plt.plot(f,nw)
+#plt.axis([40, 80, 0, 500])
+#plt.xlabel("Frequency")
+#plt.ylabel("No of words")
 #plt.show()
 
 
@@ -558,11 +558,11 @@ nw = [0 for i in range(max(dictionary_bigrams_1.values())+1)]
 f = [i for i in range(max(dictionary_bigrams_1.values())+1)] 
 for key in dictionary_bigrams_1:
     nw[dictionary_bigrams_1[key]]+=1
-plt.plot(f,nw)
-plt.axis([40, 80, 0, 2000])
-plt.xlabel("Frequency")
-plt.ylabel("No of words")
-#plt.show()
+#plt.plot(f,nw)
+#plt.axis([40, 80, 0, 2000])
+#plt.xlabel("Frequency")
+#plt.ylabel("No of words")
+#plt.show(block=False)
 
 # (2) Using BIGRAMS - only consecutive words<br>
 # We don't need to modify dict_0 and dict_4 since they will only be accessed for words found in the global<br>
@@ -714,6 +714,10 @@ dictionary_trigrams_1, dict_0_trigrams, dict_4_trigrams, len_trigrams, len_trigr
 # In[98]:
 
 
+nw = [0 for i in range(max(dictionary_trigrams_1.values())+1)] 
+f = [i for i in range(max(dictionary_trigrams_1.values())+1)] 
+for key in dictionary_trigrams_1:
+    nw[dictionary_trigrams_1[key]]+=1
 cutoff_freq = 10
 n_cutoff = len(dictionary_trigrams_1)-sum(nw[0:cutoff_freq]) 
 print("Number of words with frequency higher than cutoff frequency({}) :".format(cutoff_freq),n_cutoff)
