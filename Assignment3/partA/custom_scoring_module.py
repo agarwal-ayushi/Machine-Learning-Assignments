@@ -1,5 +1,5 @@
-def custom_scoring_fuction(y_true, y_pred):
-    return estimator.oob_score_
+def custom_scoring_fuction(clf, X, y):
+    return clf.oob_score_
 
 def main():
     print("hello!")
