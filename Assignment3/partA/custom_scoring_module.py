@@ -1,4 +1,5 @@
-def custom_scoring_fuction(clf, X, y):
+def custom_scoring_fuction(clf,X,y):
+    clf.fit(X,y)
     return clf.oob_score_
 
 def main():
