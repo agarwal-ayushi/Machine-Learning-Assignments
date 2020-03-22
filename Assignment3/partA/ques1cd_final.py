@@ -4,7 +4,6 @@
 # In[23]:
 
 
-#get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pyplot as plt
 from xclib.data import data_utils
 import numpy as np
@@ -41,8 +40,12 @@ f.close()
 
 
 classes = np.unique(train_class)
+pos_class_ind = np.where(train_class == 1)
+neg_class_ind = np.where(train_class == 0)
+
 
 # In[5]:
+
 
 attributes = np.array(range(X_train.A.shape[1]))
 
@@ -60,6 +63,12 @@ attributes = np.array(range(X_train.A.shape[1]))
 # 8. n_jobs = 6 
 # 9. ccp_alpha = cost complexity pruning - default = 0.0 i.e no pruning is performed
 # 
+
+# In[ ]:
+
+
+print("-------------------Training different number of RF with different number of estimators----------\n")
+
 
 # In[88]:
 
@@ -149,6 +158,12 @@ plt.show()
 # 8. n_jobs = 6 
 # 9. ccp_alpha = cost complexity pruning - default = 0.0 i.e no pruning is performed
 # 
+
+# In[ ]:
+
+
+print("-------------------Training different number of RF with different number of max features----------\n")
+
 
 # In[25]:
 
@@ -249,6 +264,12 @@ plt.show()
 # ccp_alpha = cost complexity pruning - default = 0.0 i.e no pruning is performed
 # 
 
+# In[ ]:
+
+
+print("-------------------Training different number of RF with different number of min samples----------\n")
+
+
 # In[104]:
 
 
@@ -326,6 +347,12 @@ plt.show()
 # 
 # Controls both the randomness of the bootstrapping of the samples used when building trees (if bootstrap=True) and the sampling of the features to consider when looking for the best split at each node (if max_features < n_features). 
 
+# In[ ]:
+
+
+print("-------------------Training different number of RF with different random state----------\n")
+
+
 # In[176]:
 
 
@@ -386,6 +413,12 @@ plt.show()
 # 
 # Whether to use out-of-bag samples to estimate the generalization accuracy.
 
+# In[ ]:
+
+
+print("-------------------Performing grid search---------------------------\n")
+
+
 # In[6]:
 
 
@@ -405,10 +438,11 @@ rfc_search = RandomForestClassifier(criterion='entropy', oob_score=True)
 
 # In[8]:
 
-# Please uncomment the gridsearch line to run it again. It runs for approximately 10 hours. 
+
 start =time.time()
-#clf = GridSearchCV(rfc_search, parameters, cv=5, scoring=custom_scoring_fuction, n_jobs=7, verbose=3, refit=True)
-#clf.fit(X_train.A, train_class.ravel())
+# Uncomment this when Grid Search Needed to be run again - It takes 10 hours
+# clf = GridSearchCV(rfc_search, parameters, cv=5, scoring=custom_scoring_fuction, n_jobs=7, verbose=3, refit=True)
+# clf.fit(X_train.A, train_class.ravel())
 end = time.time()
 
 
@@ -417,8 +451,8 @@ end = time.time()
 
 #print("Time taken to find best estimator={} sec".format(end-start))
 
-#with open("Best_classfier_partc.pickle", 'wb') as f:
-#    pickle.dump(clf, f)
+with open("Best_classfier_partc.pickle", 'wb') as f:
+    pickle.dump(clf, f)
 # In[32]:
 
 
@@ -458,6 +492,12 @@ best_classifier = RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_we
                        min_weight_fraction_leaf=0.0, n_estimators=450, n_jobs=7,
                        oob_score=True, random_state=None, verbose=0,
                        warm_start=False)
+
+
+# In[ ]:
+
+
+print("-------------------Sensitivity Analysis of RF with different number of Estimators---------\n")
 
 
 # #### Sensitivity of the classifier to varying n_estimators (50 to 450 in range of 100) with others at optimum
@@ -544,6 +584,12 @@ plt.show()
 # 
 # min_samples_split=10
 
+# In[ ]:
+
+
+print("-------------------Sensitivity analysis of RF with different number of Max Features----------\n")
+
+
 # In[16]:
 
 
@@ -621,6 +667,12 @@ plt.show()
 # n_estimators = 150
 # 
 # max_features=0.1
+
+# In[ ]:
+
+
+print("-------------------Sensitivity analysis of RF with different number of min samples----------\n")
+
 
 # In[49]:
 
