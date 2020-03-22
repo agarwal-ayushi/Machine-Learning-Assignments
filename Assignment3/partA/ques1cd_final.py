@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[23]:
+# In[40]:
 
 
+get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pyplot as plt
 from xclib.data import data_utils
 import numpy as np
@@ -11,43 +12,38 @@ import time
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.base import clone
+import os
 
 
-# In[24]:
+# In[44]:
 
 
-#Change this later. Make the path as command line argument
-X_train = data_utils.read_sparse_file('ass3_parta_data/train_x.txt', force_header=True)
-train_class = np.genfromtxt('ass3_parta_data/train_y.txt').reshape(-1, 1)
+print("----------------Reading the Data-------------------------")
+PATH = os.getcwd()
+os.chdir('ass3_parta_data/')
 
-X_valid = data_utils.read_sparse_file('ass3_parta_data/valid_x.txt', force_header=True)
-valid_class = np.genfromtxt('ass3_parta_data/valid_y.txt').reshape(-1, 1)
+X_train = data_utils.read_sparse_file('train_x.txt', force_header=True)
+train_class = np.genfromtxt('train_y.txt').reshape(-1, 1)
 
-X_test = data_utils.read_sparse_file('ass3_parta_data/test_x.txt', force_header=True)
-test_class = np.genfromtxt('ass3_parta_data/test_y.txt').reshape(-1, 1)
+X_valid = data_utils.read_sparse_file('valid_x.txt', force_header=True)
+valid_class = np.genfromtxt('valid_y.txt').reshape(-1, 1)
+
+X_test = data_utils.read_sparse_file('test_x.txt', force_header=True)
+test_class = np.genfromtxt('test_y.txt').reshape(-1, 1)
 
 
-# In[3]:
+# In[45]:
 
 
-f = open('ass3_parta_data/train_x.txt') 
+f = open('train_x.txt') 
 m,n = f.readlines()[0].rstrip("\n").split(" ")
 m,n = int(m),int(n)
 f.close()
 
+print("The number of training samples are = ", m)
+print("The number of attributes are = ", n)
 
-# In[4]:
-
-
-classes = np.unique(train_class)
-pos_class_ind = np.where(train_class == 1)
-neg_class_ind = np.where(train_class == 0)
-
-
-# In[5]:
-
-
-attributes = np.array(range(X_train.A.shape[1]))
+os.chdir(PATH)
 
 
 # ## Experiment with a) n_estimators (50 to 450 in range of 100)
@@ -357,14 +353,15 @@ print("-------------------Training different number of RF with different random 
 
 
 rand_rf = []
-ran = [0,42]
+ran = [0,42] # According to library suggestions
+
 rand_train_acc = []
 rand_val_acc = []
 rand_test_acc = []
 
 
 for r in ran:
-    rand_rf.append(RandomForestClassifier(n_estimators=450, random_state=r, criterion="entropy", n_jobs=6))
+    rand_rf.append(RandomForestClassifier(n_estimators=450, random_state=r, criterion="entropy", n_jobs=7))
 
 
 # In[178]:
@@ -451,35 +448,9 @@ end = time.time()
 
 #print("Time taken to find best estimator={} sec".format(end-start))
 
-with open("Best_classfier_partc.pickle", 'wb') as f:
-    pickle.dump(clf, f)
-# In[32]:
 
-
-with open("Best_classfier_partc.pickle", 'rb') as f:
-    clf = pickle.load(f)
-
-print("The best Estimator found is = \n", clf.best_estimator_)
-print("\nThe optimal parameters found using OOB error=\n", clf.best_params_)
-
-
-# In[9]:
-
-
-best_classifier = clone(clf.best_estimator_)
-
-
-# In[28]:
-
-
-print("The OOB Score of the best estimator is = {:2.4f}".format( clf.best_estimator_.oob_score_))
-#print(clf.best_estimator_.oob_decision_function_)
-print("The Training Accuracy of the best estimatot is = {:2.3f}%".format(clf.best_estimator_.score(X_train.A, train_class.ravel())*100))
-print("The Validation Accuracy of the best estimatot is = {:2.3f}%".format(clf.best_estimator_.score(X_valid.A, valid_class.ravel())*100))
-print("The Test Accuracy of the best estimatot is = {:2.3f}%".format(clf.best_estimator_.score(X_test.A, test_class.ravel())*100))
-
-
-# # Sensitivity Analysis (Part-D)
+# with open("Best_classfier_partc.pickle", 'wb') as f:
+#     pickle.dump(clf, f)
 
 # In[14]:
 
@@ -493,6 +464,40 @@ best_classifier = RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_we
                        oob_score=True, random_state=None, verbose=0,
                        warm_start=False)
 
+
+# In[47]:
+
+
+best_classifier.fit(X_train.A, train_class.ravel())
+
+
+# In[46]:
+
+
+# with open("Best_classfier_partc.pickle", 'rb') as f:
+#     clf = pickle.load(f)
+
+# print("The best Estimator found is = \n", clf.best_estimator_)
+# print("\nThe optimal parameters found using OOB error=\n", clf.best_params_)
+
+
+# In[9]:
+
+
+#best_classifier = clone(clf.best_estimator_)
+
+
+# In[48]:
+
+
+print("The OOB Score of the best estimator is = {:2.4f}".format( best_classifier.oob_score_))
+#print(best_classifier.oob_decision_function_)
+print("The Training Accuracy of the best estimatot is = {:2.3f}%".format(best_classifier.score(X_train.A, train_class.ravel())*100))
+print("The Validation Accuracy of the best estimatot is = {:2.3f}%".format(best_classifier.score(X_valid.A, valid_class.ravel())*100))
+print("The Test Accuracy of the best estimatot is = {:2.3f}%".format(best_classifier.score(X_test.A, test_class.ravel())*100))
+
+
+# # Sensitivity Analysis (Part-D)
 
 # In[ ]:
 
