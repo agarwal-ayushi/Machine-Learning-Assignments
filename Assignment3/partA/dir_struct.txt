@@ -1,0 +1,17 @@
+.
+├── custom_scoring_module.py 	# This is the custom scoring module in python for grid search
+├── dir_struct.txt		# This file has the directory structure
+├── params_parta.pickle		# This file stores the values of the accuracy as the tree grows for demo purpose
+├── plots			# This directory contains all the paths
+├── __pycache__	
+├── ques1ab_final.ipynb		
+├── ques1ab_final.py
+├── ques1cd_final.ipynb
+├── ques1cd_final.py
+├── ques1e.ipynb
+├── ques1e.py
+├── README.md			# README
+├── run.sh			# run script
+└── trees			# Contains the snapshot of trees of different depths
+
+3 directories, 11 files
