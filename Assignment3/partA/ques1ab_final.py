@@ -1,41 +1,51 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[16]:
+# In[1]:
 
 
+#get_ipython().run_line_magic('matplotlib', 'inline')
 from xclib.data import data_utils
 import numpy as np
 import time
 import pickle
 import copy
 import os
-#get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pyplot as plt
+import warnings
+
+warnings.filterwarnings('ignore')
+
+
+# In[2]:
+
+
+print("----------------Reading the Data-------------------------")
+PATH = os.getcwd()
+os.chdir('ass3_parta_data/')
+
+X_train = data_utils.read_sparse_file('train_x.txt', force_header=True)
+train_class = np.genfromtxt('train_y.txt').reshape(-1, 1)
+
+X_valid = data_utils.read_sparse_file('valid_x.txt', force_header=True)
+valid_class = np.genfromtxt('valid_y.txt').reshape(-1, 1)
+
+X_test = data_utils.read_sparse_file('test_x.txt', force_header=True)
+test_class = np.genfromtxt('test_y.txt').reshape(-1, 1)
 
 
 # In[3]:
 
 
-#Change this later. Make the path as command line argument
-X_train = data_utils.read_sparse_file('ass3_parta_data/train_x.txt', force_header=True)
-train_class = np.genfromtxt('ass3_parta_data/train_y.txt').reshape(-1, 1)
-
-X_valid = data_utils.read_sparse_file('ass3_parta_data/valid_x.txt', force_header=True)
-valid_class = np.genfromtxt('ass3_parta_data/valid_y.txt').reshape(-1, 1)
-
-X_test = data_utils.read_sparse_file('ass3_parta_data/test_x.txt', force_header=True)
-test_class = np.genfromtxt('ass3_parta_data/test_y.txt').reshape(-1, 1)
-
-
-# In[4]:
-
-
-# Loading the number of samples and attributes
-f = open('ass3_parta_data/train_x.txt') 
+f = open('train_x.txt') 
 m,n = f.readlines()[0].rstrip("\n").split(" ")
 m,n = int(m),int(n)
 f.close()
+
+print("The number of training samples are = ", m)
+print("The number of attributes are = ", n)
+
+os.chdir(PATH)
 
 
 # In[5]:
@@ -43,11 +53,6 @@ f.close()
 
 #Determine the number of unique classes 
 classes = np.unique(train_class)
-
-
-# In[6]:
-
-
 attributes = np.array(range(X_train.A.shape[1]))
 
 

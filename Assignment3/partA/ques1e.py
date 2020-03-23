@@ -1,4 +1,10 @@
-%matplotlib inline
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[33]:
+
+
+#get_ipython().run_line_magic('matplotlib', 'inline')
 import matplotlib.pyplot as plt
 from xclib.data import data_utils
 import numpy as np
@@ -7,6 +13,11 @@ import pickle
 from sklearn.base import clone
 from sklearn import ensemble
 import os
+import warnings
+
+warnings.filterwarnings("ignore")
+# In[34]:
+
 
 print("----------------Reading the Data-------------------------")
 PATH = os.getcwd()
@@ -21,6 +32,10 @@ valid_class = np.genfromtxt('valid_y.txt').reshape(-1, 1)
 X_test = data_utils.read_sparse_file('test_x.txt', force_header=True)
 test_class = np.genfromtxt('test_y.txt').reshape(-1, 1)
 
+
+# In[36]:
+
+
 f = open('train_x.txt') 
 m,n = f.readlines()[0].rstrip("\n").split(" ")
 m,n = int(m),int(n)
@@ -31,8 +46,24 @@ print("The number of attributes are = ", n)
 
 os.chdir(PATH)
 
+
+# params = {'n_estimators': 100, 'max_depth': 10, 'subsample': 1,
+#           'learning_rate': 0.01, 'min_samples_leaf': 1, 'random_state': 3}
+# clf = ensemble.GradientBoostingClassifier(**params)
+
+# clf.fit(X_train.A, train_class.ravel())
+
+# # Experiment with the Learning Rate in the GB trees.
+
+# In[ ]:
+
+
 print("----------Exploring the affect of learning rate on Gradient Boosted Trees------------------------")
 print("------------------Training with different LR----------------------------------------")
+
+
+# In[41]:
+
 
 lr_rf = []
 lr = [0.001, 0.01, 0.03, 0.1, 0.3, 1, 1.3]
@@ -44,15 +75,27 @@ for l in lr:
     lr_rf.append(ensemble.GradientBoostingClassifier(learning_rate=l, max_depth=10, 
                                                      subsample=0.5))
 
+
+# In[42]:
+
+
 for i in range(len(lr_rf)):
     lr_rf[i].fit(X_train.A, train_class.ravel())
     lr_train_acc.append(lr_rf[i].score(X_train.A, train_class.ravel()))
     lr_val_acc.append(lr_rf[i].score(X_valid.A, valid_class.ravel()))
     lr_test_acc.append(lr_rf[i].score(X_test.A, test_class.ravel()))
 
+
+# In[43]:
+
+
 lr_train_acc = [x*100 for x in lr_train_acc]
 lr_val_acc = [x*100 for x in lr_val_acc]
 lr_test_acc = [x*100 for x in lr_test_acc]
+
+
+# In[47]:
+
 
 f, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
 
@@ -86,9 +129,24 @@ plt.legend()
 plt.suptitle("Accuracy wrt Learning Rate of GBT")
 plt.subplots_adjust(hspace=0.05)
 #f.savefig("plots/parte/lr.png", dpi = 1000)
-#plt.show()
+plt.show()
+
+
+# #### Exponential Loss performs similar to deviance on this dataset
+# print(clf.score(X_train.A, train_class.ravel()))
+# print(clf.score(X_valid.A, valid_class.ravel()))
+# print(clf.score(X_test.A, test_class.ravel()))
+
+# # Experiment with the number of boosting stages in the GB trees.
+
+# In[ ]:
+
 
 print("----------Exploring the affect of number of boosting stages in Gradient Boosted Trees------------")
+
+
+# In[12]:
+
 
 ne_rf = []
 n_estimator = [x for x in range(50, 451, 100)]
@@ -100,17 +158,29 @@ for n_esti in n_estimator:
     ne_rf.append(ensemble.GradientBoostingClassifier(n_estimators=n_esti, learning_rate=0.01, max_depth=10, 
                                                      subsample=0.5))
 
+
+# In[13]:
+
+
 for i in range(len(ne_rf)):
     ne_rf[i].fit(X_train.A, train_class.ravel())
     ne_train_acc.append(ne_rf[i].score(X_train.A, train_class.ravel()))
     ne_val_acc.append(ne_rf[i].score(X_valid.A, valid_class.ravel()))
     ne_test_acc.append(ne_rf[i].score(X_test.A, test_class.ravel()))
 
+
+# In[14]:
+
+
 ne_train_acc = [x*100 for x in ne_train_acc]
 ne_val_acc = [x*100 for x in ne_val_acc]
 ne_test_acc = [x*100 for x in ne_test_acc]
 
-%matplotlib inline
+
+# In[15]:
+
+
+get_ipython().run_line_magic('matplotlib', 'inline')
 f, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
 
 ax2.plot(n_estimator, ne_val_acc, marker="*", c='b', label="Validation Accuracy")
@@ -143,9 +213,19 @@ plt.legend()
 plt.suptitle("Accuracy wrt #Boosting stages for GBT")
 plt.subplots_adjust(hspace=0.05)
 f.savefig("plots/parte/n-estimators.png", dpi = 1000)
-#plt.show()
+plt.show()
+
+
+# # Experiment with the min sample split of weak learner in the GB trees.
+
+# In[ ]:
+
 
 print("----------Exploring the affect of min sample split of the learner in Gradient Boosted Trees------------")
+
+
+# In[16]:
+
 
 mss_rf = []
 mss = [x for x in range(2, 17, 2)]
@@ -157,17 +237,29 @@ for m in mss:
     mss_rf.append(ensemble.GradientBoostingClassifier(min_samples_split=m, learning_rate=0.01, max_depth=10, 
                                                       subsample=0.5))
 
+
+# In[17]:
+
+
 for i in range(len(mss_rf)):
     mss_rf[i].fit(X_train.A, train_class.ravel())
     mss_train_acc.append(mss_rf[i].score(X_train.A, train_class.ravel()))
     mss_val_acc.append(mss_rf[i].score(X_valid.A, valid_class.ravel()))
     mss_test_acc.append(mss_rf[i].score(X_test.A, test_class.ravel()))
 
+
+# In[18]:
+
+
 mss_train_acc = [x*100 for x in mss_train_acc]
 mss_val_acc = [x*100 for x in mss_val_acc]
 mss_test_acc = [x*100 for x in mss_test_acc]
 
-%matplotlib inline
+
+# In[21]:
+
+
+get_ipython().run_line_magic('matplotlib', 'inline')
 f, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
 
 ax2.plot(mss, mss_val_acc, marker="*", c='b', label="Validation Accuracy")
@@ -199,9 +291,19 @@ plt.legend()
 plt.suptitle("Accuracy wrt Minimum Samples Needed for XG Boost")
 plt.subplots_adjust(hspace=0.05)
 #f.savefig("plots/parte/min_samples.png", dpi = 1000)
-#plt.show()
+plt.show()
+
+
+# # Experiment with the depth of weak learner in the GB trees.
+
+# In[ ]:
+
 
 print("----------Exploring the affect of depth of the learner in Gradient Boosted Trees------------")
+
+
+# In[20]:
+
 
 max_dep_rf = []
 max_dep = [x for x in range(1, 42, 5)]
@@ -213,17 +315,29 @@ for m in max_dep:
     max_dep_rf.append(ensemble.GradientBoostingClassifier(learning_rate=0.01, max_depth=m, 
                                                       subsample=0.5))
 
+
+# In[46]:
+
+
 for i in range(len(max_dep_rf)):
     max_dep_rf[i].fit(X_train.A, train_class.ravel())
     max_dep_train_acc.append(max_dep_rf[i].score(X_train.A, train_class.ravel()))
     max_dep_val_acc.append(max_dep_rf[i].score(X_valid.A, valid_class.ravel()))
     max_dep_test_acc.append(max_dep_rf[i].score(X_test.A, test_class.ravel()))
 
+
+# In[47]:
+
+
 max_dep_train_acc = [x*100 for x in max_dep_train_acc]
 max_dep_val_acc = [x*100 for x in max_dep_val_acc]
 max_dep_test_acc = [x*100 for x in max_dep_test_acc]
 
-%matplotlib inline
+
+# In[48]:
+
+
+get_ipython().run_line_magic('matplotlib', 'inline')
 f, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
 
 ax2.plot(max_dep, max_dep_val_acc, marker="*", c='b', label="Validation Accuracy")
@@ -255,6 +369,11 @@ plt.legend()
 plt.suptitle("Accuracy wrt Max Depth Needed for XG Boost")
 plt.subplots_adjust(hspace=0.05)
 #f.savefig("plots/parte/max-depth.png", dpi = 1000)
-#plt.show()
+plt.show()
+
+
+# In[ ]:
+
+
 
 
