@@ -158,12 +158,12 @@ for k in list(comb):
 print("Time taken to train all the classifiers (10C2) with CVX OPT = {:2.3f}sec".format(time.time()-start))
 
 import pickle
-with open('fashion_MNIST_SVM.pickle','wb') as f:
-    pickle.dump(cvx_solver, f)
+#with open('fashion_MNIST_SVM.pickle','wb') as f:
+#    pickle.dump(cvx_solver, f)
 # In[ ]:
 
 
-cvx_solver = pickle.load(open("fashion_MNIST_SVM.pickle", "rb"))
+#cvx_solver = pickle.load(open("fashion_MNIST_SVM.pickle", "rb"))
 
 
 # In[8]:

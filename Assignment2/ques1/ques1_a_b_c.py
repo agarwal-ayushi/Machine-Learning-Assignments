@@ -85,7 +85,6 @@ for x in tweets_train:
             else:
                 dict_4[w]=1
 
-
 # In[5]:
 
 
