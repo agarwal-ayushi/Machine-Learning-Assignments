@@ -1,0 +1,6 @@
+----Training VGG-19 Model from scratch for the Encoder----
+Number of Loaded captions: 1014 
+---Beginning the pre-processing of the training dataset captions---
+The number of words in the generated vocabulary are= 6286
+BLEU SCORE on public test data by beam search : 0.310141503202497
+SACREBLEU SCORE by beam search : 6.225383958911424

@@ -1,0 +1,5 @@
+Number of Loaded captions: 1014 
+---Beginning the pre-processing of the training dataset captions---
+The number of words in the generated vocabulary are= 6286
+BLEU SCORE on public test data by beam search : 0.4804939110999757
+SACREBLEU SCORE by beam search : 14.186191494197882
