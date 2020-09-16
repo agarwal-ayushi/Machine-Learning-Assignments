@@ -4,9 +4,10 @@
 #### Report Submitted: Assignment4_report.pdf
 
 
-##### The assignment was broken into two parts: Non-Competetive and Competitive part.
+#### The assignment was broken into two parts: Non-Competetive and Competitive part.
 
 **Non-Competetive Part:** Encoder - VGG-19 trained from scratch on the dataset given (subset of ImageNet) and Decoder - LSTM (PyTorch based)
+
 **Competitive Part:** Encoder - Pretrained torchvision ResNet-50 model, Decoder - LSTM and Attention based 
 
 
